@@ -2,17 +2,19 @@ import requests
 import pandas as pd
 import os
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-headers = {
-    "content-type": "application/json"
-}
+# Define headers and base URL
+headers = {"content-type": "application/json"}
 base_url = "https://api.ixpdb.net/v1"
 
+# Create directory to store the exported files
 os.makedirs("CSV Export", exist_ok=True)
 
+# Function to hit HTTP requests in parallel
 def hit_http_request(relative_url):
+    url = base_url + relative_url
     try:
-        url = base_url + relative_url
         response = requests.get(url, headers=headers)
         response.raise_for_status()
         return response.json()
@@ -20,78 +22,92 @@ def hit_http_request(relative_url):
         print(f"Error fetching {relative_url}: {e}")
         return None
 
+# Function to export data to CSV
 def export_file(data, filename):
     dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
     new_file_name = f"{dt_str}_{filename}.csv"
     path = os.path.join("CSV Export", new_file_name)
-    
     df = pd.DataFrame(data)
     df.to_csv(path, index=False)
 
+# Function to handle parallel fetching of data
+def fetch_parallel_data(urls):
+    results = []
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(hit_http_request, url): url for url in urls}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                results.append(result)
+    return results
+
+# Step 1: Fetch Providers and create a list of unique organization IDs
 provider_records = hit_http_request("/provider/list")
-organisation_records = []
 
+# Extract unique organization IDs
 org_ids = {record['organization_id'] for record in provider_records}
-organisation_contact = []
-for org_id in org_ids:
-    url = f"/organization/{org_id}"
-    org_res = hit_http_request(url)
-    if org_res:
-        organisation_records.append({
-            "name": org_res["name"],
-            "id": org_res["id"],
-            "website": org_res["website"],
-            "city": org_res["city"],
-            "country": org_res["country"],
-            "association": ", ".join(org_res["association"])
-        })
-        for contact in org_res["contacts"]:
-            organisation_contact.append({
-                "organization_id": org_res["id"],
-                "phone": contact["phone"],
-                "name": contact["name"],
-                "email": contact["email"],
-                "address": contact["address"],
-                "city": contact["city"],
-                "country": contact["country"]
-            })
 
+# Step 2: Fetch Organization details and contacts using parallel requests
+org_urls = [f"/organization/{org_id}" for org_id in org_ids]
+organisation_data = fetch_parallel_data(org_urls)
+
+# Prepare Organization Records and Contacts
+organisation_records = []
+organisation_contact = []
+for org_res in organisation_data:
+    organisation_records.append({
+        "organization_id": org_res["id"],
+        "organization_name": org_res["name"],
+        "website": org_res["website"],
+        "city": org_res["city"],
+        "country": org_res["country"],
+        "association": ", ".join(org_res["association"])
+    })
+    for contact in org_res["contacts"]:
+        organisation_contact.append({
+            "organization_id": org_res["id"],
+            "phone": contact.get("phone"),
+            "name": contact.get("name"),
+            "email": contact.get("email"),
+            "address": contact.get("address"),
+            "city": contact.get("city"),
+            "country": contact.get("country")
+        })
+
+# Step 3: Fetch Traffic records
 traffic_records = hit_http_request("/traffic/list")
 
-participant_records = []
+# Step 4: Fetch Participant records
 participant_response = hit_http_request("/participant/list")
-for participant_record in participant_response:
-    participant_records.append({
-        "asn": participant_record["asn"],
-        "ip_addresses": ", ".join(participant_record["ip_addresses"]),
-        "ipv6": participant_record["ipv6"],
-        "manrs": participant_record["manrs"],
-        "name": participant_record["name"],
-        "provider_count": participant_record["provider_count"]
-    })
+participant_records = [{
+    "asn": participant_record["asn"],
+    "ip_addresses": ", ".join(participant_record["ip_addresses"]),
+    "ipv6": participant_record["ipv6"],
+    "manrs": participant_record["manrs"],
+    "name": participant_record["name"],
+    "provider_count": participant_record["provider_count"]
+} for participant_record in participant_response]
 
-organisation_provider_mapping_records = []
-for org_record in organisation_records:
-    provider_mapping_records = hit_http_request(f"/organization/{org_record['id']}/providers")
-    for map_record in provider_mapping_records:
-        organisation_provider_mapping_records.append({
-            "ProviderID": map_record["id"],
-            "OrganizationID": org_record["id"]
-        })
+# Step 5: Fetch network and participant details for each provider using parallel requests
+provider_urls = [f"/provider/{provider['id']}/networks" for provider in provider_records]
+network_data = fetch_parallel_data(provider_urls)
 
 provider_networks = []
-provider_participants = []
-provider_records_v2 = []
-for provider in provider_records:
-    networks = hit_http_request(f"/provider/{provider['id']}/networks")
+for provider, networks in zip(provider_records, network_data):
     for network in networks:
         provider_networks.append({
             "ProviderID": provider["id"],
-            "name": network["name"],
+            "network_name": network["name"],
             "addresses": ", ".join(network["addresses"]),
             "route_server_asns": network["route_server_asns"]
         })
-    participants = hit_http_request(f"/provider/{provider['id']}/participants")
+
+# Fetch participant details for each provider using parallel requests
+participant_urls = [f"/provider/{provider['id']}/participants" for provider in provider_records]
+participant_data = fetch_parallel_data(participant_urls)
+
+provider_participants = []
+for provider, participants in zip(provider_records, participant_data):
     for participant in participants:
         provider_participants.append({
             "ProviderID": provider["id"],
@@ -100,27 +116,45 @@ for provider in provider_records:
             "ipv6": participant["ipv6"],
             "ip_addresses": ", ".join(participant["ip_addresses"])
         })
-    provider_records_v2.append({
-        "apis_ixfexport": provider["apis"]["ixfexport"],
-        "apis_traffic": provider["apis"]["traffic"],
-        "city": provider["city"],
-        "country": provider["country"],
-        "id": provider["id"],
-        "location_count": provider["location_count"],
-        "looking_glass": ", ".join(provider["looking_glass"]),
-        "manrs": provider["manrs"],
-        "name": provider["name"],
-        "organization_id": provider["organization_id"],
-        "participant_count": provider["participant_count"],
-        "pdb_id": provider["pdb_id"],
-        "updated": provider["updated"],
-        "website": provider["website"]
-    })
 
+# Step 6: Consolidate provider records for CSV export
+provider_records_v2 = [{
+    "provider_id": provider["id"],
+    "organization_id": provider["organization_id"],
+    "provider_name": provider["name"],
+    "provider_city": provider["city"],
+    "provider_country": provider["country"],
+    "location_count": provider["location_count"],
+    "looking_glass": ", ".join(provider.get("looking_glass", [])),
+    "manrs": provider["manrs"],
+    "participant_count": provider["participant_count"],
+    "pdb_id": provider["pdb_id"],
+    "updated": provider["updated"],
+    "website": provider["website"]
+} for provider in provider_records]
+
+# Step 7: Create DataFrames for each section and merge into consolidated
+org_df = pd.DataFrame(organisation_records)
+provider_df = pd.DataFrame(provider_records_v2)
+network_df = pd.DataFrame(provider_networks)
+participant_df = pd.DataFrame(provider_participants)
+
+# Step 8: Merge Providers with Organizations
+provider_org_df = org_df.merge(provider_df, on="organization_id", how="inner")
+
+# Step 9: Merge Providers with Networks
+provider_org_network_df = provider_org_df.merge(network_df, left_on="provider_id", right_on="ProviderID", how="left")
+
+# Step 10: Merge with Participants, expanding rows to repeat details
+consolidated_data = provider_org_network_df.merge(
+    participant_df, left_on="provider_id", right_on="ProviderID", how="left"
+)
+
+# Step 11: Export separate and consolidated files
 export_file(provider_records_v2, "Providers")
 export_file(provider_participants, "Providers_Participants")
 export_file(provider_networks, "Providers_Networks")
 export_file(organisation_records, "Organizations")
-export_file(organisation_provider_mapping_records, "Organizations_Providers")
 export_file(traffic_records, "Traffic")
 export_file(organisation_contact, "Contacts")
+export_file(consolidated_data.to_dict(orient="records"), "Consolidated_Data")
