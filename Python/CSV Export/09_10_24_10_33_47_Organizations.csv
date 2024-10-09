@@ -1,0 +1,1068 @@
+organization_id,organization_name,website,city,country,association
+10,VIX (Vienna Internet Exchange),http://www.VIX.at/,,AT,Euro-IX
+13,Netnod Stockholm (Netnod Stockholm),https://www.netnod.se,Stockholm,SE,Euro-IX
+11,BNIX (Belgian National Internet Exchange),http://www.bnix.net,Brussels,BE,Euro-IX
+407,WPG-IX (Winnipeg Internet Exchange),http://wpgix.net,Winnipeg,CA,North America
+9,AMS-IX,https://ams-ix.net/,Amsterdam,NL,Euro-IX
+81935,LINX Nairobi,,Nairobi,KE,AFIX
+16,FRA (DE-CIX Frankfurt),https://www.de-cix.net/locations/frankfurt,Frankfurt am Main,DE,Euro-IX
+73747,Kenya Internet Exchange Point - Nairobi Icolo,https://www.tespok.co.ke,Nairobi,KE,AFIX
+21,msk-ix (MSK-IX public peering VLAN),http://www.msk-ix.ru/,Moscow,RU,Euro-IX
+22,TOP-IX (Torino Piemonte Exchange Point),http://www.top-ix.org,,IT,Euro-IX
+7,LINX LON1 (LINX LON1),https://www.linx.net/,London,GB,Euro-IX
+17,GigaPIX - LAN 1,http://www.gigapix.pt,Lisbon,PT,Euro-IX
+18,CATNIX (Catalunya Neutral Internet eXchange),http://www.catnix.net,Barcelona,ES,Euro-IX
+19,BiX (Budapest Internet eXchange),http://www.bix.hu,Budapest,HU,Euro-IX
+24,RoNIX (Romanian Network for Internet eXchange),http://www.ronix.ro,Bucharest,RO,Euro-IX
+23,"NIX.CZ (NIX.CZ, z.s.p.o.)",http://www.nix.cz/,Praha 3,CZ,Euro-IX
+26,LONAP Network (LONAP Ltd.),https://www.lonap.net,London,GB,Euro-IX
+25,Namex Roma IXP (Namex IXP),https://www.namex.it/,Roma,IT,Euro-IX
+27,NIX1 (Norwegian Internet eXchange),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Oslo,NO,Euro-IX
+28,INEX LAN1 (Internet Neutral Exchange Association Limited by Guarantee),https://www.inex.ie/,Dublin,IE,Euro-IX
+90779,VNIX-DN,,,,APIX
+31,Equinix Zurich (Equinix Internet Exchange - Zurich),http://www.equinix.com/,Zurich,CH,Euro-IX
+29,BCIX (BCIX Management GmbH),http://www.bcix.de/bcix/,Berlin,DE,Euro-IX
+33,FICIX - Helsinki (Finnish Communication and Internet Exchange - Helsinki),https://www.ficix.fi,Helsinki,FI,Euro-IX
+36,NL-ix,http://www.nl-ix.net/,The Hague,NL,Euro-IX
+37,CIX (Croatian Internet eXchange),http://www.cix.hr/,Zagreb,HR,Euro-IX
+35,SIX (Slovenian Internet Exchange),http://www.arnes.si/infrastructure/six-slovenian-internet-exchange/,Ljubljana,SI,Euro-IX
+414,VIC-IX (IX Australia (Melbourne VIC)),http://www.ix.asn.au/,Melbourne,AU,APIX
+39,SFINX (Service for French Internet eXchange),https://www.renater.fr/,Paris,FR,Euro-IX
+44,InterLAN Internet Exchange (Interlan IX),http://www.interlan.ro/?lang=en,Bucharest,RO,Euro-IX
+43,Equinix WA IX (Equinix Warsaw),http://www.equinix.com/,Warsaw,PL,Euro-IX
+42,SwissIX (SwissIX Internet Exchange),https://www.swissix.ch/,Glattbrugg,CH,Euro-IX
+40,RIX (Reykjavik Internet Exchange),https://www.rix.is/english,Reykjavik,IS,Euro-IX
+47,BIX.BG (BIX.BG - Bulgarian Internet eXchange),http://www.bix.bg/,Sofia,BG,Euro-IX
+45,VSIX Nap (VSIX),http://www.vsix.it/,Padua,IT,Euro-IX
+84014,AMS-IX Lagos,www.ams-ix.net,Lagos,NG,AFIX
+49,NIXI - New Delhi (National Internet Exchange of India - New Delhi),http://nixi.in/,Delhi ,IN,APIX
+46,Equinix Paris (Equinix Internet Exchange - Paris),http://www.equinix.com/,Paris,FR,Euro-IX
+50,TREX (TREX Regional Exchanges Oy),http://www.trex.fi/,Tampere,FI,Euro-IX
+51,HAM (DE-CIX Hamburg),https://www.de-cix.net/locations/hamburg,Hamburg,DE,Euro-IX
+57,MUC (DE-CIX Munich),https://www.de-cix.net/locations/munich,Munich,DE,Euro-IX
+53,TIX Tanzania - Dar es Salaam,http://www.tix.or.tz/,Dar es Salaam,TZ,AFIX
+52,UA-IX (Ukrainian Internet Exchange),http://www.ua-ix.net.ua/eng.phtml,Kiev,UA,Euro-IX
+55,CoreSite - Any2 Los Angeles (CoreSite - Any2 Los Angeles),,Los Angeles,US,North America
+88118,LIS-IX,https://ixp.pt,Lisbon,PT,Euro-IX
+56,NPIX Putalisadak (Internet Exchange Nepal),http://www.npix.net.np/,Kathmandu,NP,APIX
+90785,MMIX Mandalay,,,,APIX
+62,IXPN-LOS (INTERNET EXCHANGE POINT OF NIGERIA),http://www.ixp.net.ng,LAGOS,NG,AFIX
+64,ESPANIX Madrid Lower LAN,http://www.espanix.net/,Madrid,ES,Euro-IX
+90786,GetaFIX Cebu,,,,APIX
+67,MIX-IT (Milan Internet Exchange),http://www.mix-it.net/,Milano,IT,Euro-IX
+84,SIX Seattle (Seattle Internet Exchange (MTU 1500)),https://www.seattleix.net/,Seattle,US,North America
+66,IX-BER (Berlin IX),https://www.megaport.com,,DE,Euro-IX
+69,France-IX AURA,https://www.franceix.net/,,FR,Euro-IX
+71,JPNAP Tokyo,http://www.jpnap.net/,Tokyo,JP,APIX
+90787,GetaFIX Davao,,,,APIX
+81993,InterIX (InterIX),https://www.inter-ix.net/,Amsterdam,NL,Euro-IX
+81994,EO-IX (Electric Ocean Internet Exchange),https://ebgp.moe/,Freemont,US,North America
+73,Johannesburg Internet Exchange Point (INX),http://www.inx.net.za,Johannesburg,ZA,AFIX
+78,Crimea-IX (Crimea-IX),http://crimea-ix.net/,"Crimea Republic, Simferopol",RU,Euro-IX
+76,NAPAfrica IX Johannesburg (NAPAfrica),http://www.napafrica.net,Johannesburg,ZA,AFIX
+82000,AF-CIX (African Cloud Interconnection Exchange),http://www.af-cix.net,Lagos,NG,AFIX
+82003,1-IX Kyiv (1-IX Internet Exchange),http://1-ix.net,Kyiv,UA,Euro-IX
+82004,Mario IX,https://ix.mario.gdn,Elche,ES,Euro-IX
+82005,DE-CIX Leipzig,https://www.de-cix.net/en/locations/leipzig,Leipzig,DE,Euro-IX
+85,NetIX (NetIX Communications),http://www.netix.net/,,BG,Euro-IX
+84043,AMS-IX Bangkok,https://ams-ix.net/ban/,Bangkok,TH,APIX
+91,AMS-IX Caribbean,https://ams-ix.net/,"Willemstad, Curacao",AN,LAC-IX
+88,NYC (DE-CIX New York),https://www.de-cix.net/locations/new-york,New York,US,North America
+81996,Peru IX (PIT Peru sac) - Chiclayo,http://www.peruix.net,Chiclayo,PE,LAC-IX
+81995,MWestIX (Mountain West Internet Exchange),https://www.mwestix.net/,Salt Lake City,US,North America
+82007,France-IX Lille,https://www.franceix.net/en/pops-en/france-ix-lille-en,Lille,FR,Euro-IX
+94,FICIX - Espoo (Finnish Communication and Internet Exchange - Espoo),https://www.ficix.fi,Espoo,FI,Euro-IX
+425,Peering.cz,http://www.peering.cz/en/,Prague,CZ,Euro-IX
+82001,1-IX Warsaw (1-IX Internet Exchange Warsaw),https://1-ix.net,Warsaw,PL,Euro-IX
+97,IX-DUS (Dusseldorf IX),https://www.megaport.com,,DE,Euro-IX
+92,AMS-IX Hong Kong,https://ams-ix.net/,Hong Kong,CN,APIX
+96,France-IX Paris,https://www.franceix.net,Paris,FR,Euro-IX
+426,PIT Bolivia LAN 1 (Punto de Intercambio de Trafico PIT Bolivia),http://www.att.gob.bo/index.php/tics/fiscalizacion/430,La Paz,BO,LAC-IX
+101,TTIX,https://ix.tt,Barataria,TT,LAC-IX
+82023,SMART-IX (Saint-Martin Internet Exchange),https://www.smart-ix.fr/,Marigot,US,North America
+105,"NIX.SK (NIX.CZ, z.s.p.o. organizacna zlozka)",http://www.nix.cz/,Praha 3,SK,Euro-IX
+106,KIXP ADC Nairobi (Kenya Internet Exchange Point),http://www.kixp.or.ke/,Nairobi,KE,AFIX
+93,AMS-IX USA New York,https://ams-ix.net/,New York,US,North America
+87,CNX (Cambodian Network Exchange),www.cnx.net.kh,Phnom Penh,KH,APIX
+98,IX-HAM (Hamburg IX),https://www.megaport.com,,DE,Euro-IX
+82022,FOX-TW (Formosa Open eXchange),https://www.fox.net.tw/en,Tiawan,TW,APIX
+109,FICIX - Oulu (Finnish Communication and Internet Exchange - Oulu),https://www.ficix.fi,Oulu,FI,Euro-IX
+99,IX-FRA (Frankfurt IX),https://www.megaport.com,,DE,Euro-IX
+89,DIX,http://www.dix.dk/,Lyngby,DK,Euro-IX
+103,SIX Bratislava (Slovak Internet eXchange Bratislava),http://www.six.sk/,Bratislava,SK,Euro-IX
+71788,BCN (DE-CIX Barcelona),https://www.de-cix.net/locations/barcelona,Barcelona,ES,Euro-IX
+107,SAIX (Salzburg Internet eXchange),,Salzburg,AT,Euro-IX
+113,IST (DE-CIX Istanbul),https://www.de-cix.net/en/locations/istanbul,Istanbul,TR,Euro-IX
+108,GIX - Accra (Ghana Internet Exchange),http://www.gixa.org.gh/,Accra,GH,AFIX
+73840,IXPN_ABUJA (INTERNET EXCHANGE POINT OF NIGERIA),https://ixp.net.ng,Abuja,NG,AFIX
+96364,IXP-MTY (NIX NETWORK),https://portal.nixnetwork.mx,Monterrey,MX,LAC-IX
+114,DUS (DE-CIX Dusseldorf),https://www.de-cix.net/locations/dusseldorf,Dusseldorf,DE,Euro-IX
+94326,IX-ADL (Adelaide IX),https://www.megaport.com/,,,APIX
+94327,IX-CHI (Chicago IX),https://www.megaport.com/,,,North America
+115,IX-MUC (Munich IX),https://www.megaport.com,,DE,Euro-IX
+117,DFW (DE-CIX Dallas),https://www.de-cix.net/locations/dallas,Dallas,US,North America
+94328,IX-SJC (Bay Area IX),https://www.megaport.com/,,,North America
+122,Bangkok Neutral Internet Exchange (BKNIX),https://bknix.co.th/,Bangkok,TH,APIX
+73843,KIXP PAIX Nairobi (Kenya Internet Exchange Point),https://www.tespok.co.ke/,Nairobi,KE,AFIX
+73839,IXPN_KANO (INTERNET EXCHANGE POINT OF NIGERIA),https://ixp.net.ng,Kano,NG,AFIX
+120,IX Kolkata (IIFON IX Kolkata),,Kolkata,IN,APIX
+124,MIXP.me,http://www.mixp.me/eng/,Podgorica,ME,Euro-IX
+118,QIX (Quebec Internet Exchange),http://www.qix.ca,Montreal,CA,North America
+125,ekt-ix (EKT-IX public peering VLAN),http://www.msk-ix.ru/,Ekaterinburg,RU,Euro-IX
+90798,SBIX FRE,,,,North America
+128,DE-CIX Mumbai (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.in/de-cix-mumbai/,Mumbai,IN,APIX
+126,spb-ix (SPB-IX public peering VLAN),http://www.msk-ix.ru/,St.-Petersburg,RU,Euro-IX
+130,AuvernIX (AuvernIX), www.auvernix.org,Clermont-Ferrand,FR,Euro-IX
+90800,IX42 NYC,,,,North America
+133,IX Liverpool (IX Liverpool),http://www.ixliverpool.net,Liverpool,GB,Euro-IX
+82252,Namex Napoli,https://www.namex.it/,Napoli,IT,Euro-IX
+123,STHIX - Stockholm (Stockholm Internet eXchange AB),http://www.sthix.net/,Stockholm,SE,Euro-IX
+132,pcix (Piacenza Internet Exchange ),https://www.naquadria.it,Piacenza,IT,Euro-IX
+134,CIXP (CERN Internet Exchange Point),http://www.cixp.net,,CH,Euro-IX
+135,TIX Tuscany (Tuscany Internet eXchange),http://www.tix.it/,Florence,IT,Euro-IX
+138,JPIX - Tokyo (Japan Internet Exchange - Tokyo),http://www.jpix.ad.jp/,Tokyo,JP,APIX
+80013,IXPlay Paris,https://ixplay.es,Paris,FR,Euro-IX
+140,BBIX - Tokyo (BroadBand Internet eXchange - Tokyo),http://www.bbix.net/en/,Tokyo,JP,APIX
+142,Digital Realty - Atlanta (Digital Realty Exchange - Atlanta),http://www.digitalrealty.com,Atlanta,US,North America
+143,LU-CIX (LU-CIX Luxembourg Internet Exchange),http://www.lu-cix.lu/,Bettembourg,LU,Euro-IX
+145,NDIX (Nederlands-Duitse Internet Exchange),http://www.ndix.net/, Enschede,NL,Euro-IX
+80012,MoeIX FSN,https://ix.moebee.net,Falkenstein,DE,Euro-IX
+82068,IIX-Bali (Bali Internet eXchange ),https://www.iix.net.id/,Denpasar,ID,APIX
+146,Equinix Ashburn (Equinix Ashburn),http://www.equinix.com,Ashburn,US,North America
+147,NAP Colombia (NAP Colombia),http://www.nap.com.co/,Bogota,CO,LAC-IX
+149,CyIX (Cyprus Internet Exchange),http://www.cytanet.com.cy/network/cyix/,Nicosia,CY,Euro-IX
+82071,IIX-Lampung,http://lampung.apjii.or.id,Bandar Lampung,ID,APIX
+82069,IIX-Jabar,https://www.iix.net.id,Bandung,ID,APIX
+82072,IIX-Jateng (Jawa Tengah Internet eXchange),https://jateng.apjii.or.id,Semarang,ID,APIX
+82074,IIX-Banten,http://banten.apjii.or.id,Serang,ID,APIX
+96410,Area31 Datacenter (Alien Internet Exchange),https://aix.area31.id,Jakarta,ID,APIX
+82073,IIX Jawa Timur,https://ji.iix.net.id,Surabaya,ID,APIX
+86174,BBIX Manila,https://bbix.com.ph,,,APIX
+148,KINX - Seoul (Korea Internet Neutral Exchange),https://www.kinx.net/?lang=en,Seoul,KR,APIX
+82070,IIX-Sumut,https://www.iix.net.id,Medan,ID,APIX
+154,LIX - Latvia (Latvian Internet eXchange),http://www.lix.lv/,Riga,LV,Euro-IX
+151,KleyReX (KleyReX Internet Exchange),http://www.kleyrex.net,Frankfurt am Main,DE,Euro-IX
+161,Kampala 1 (Uganda Internet Exchange Point),http://uixp.co.ug/,Kampala,UG,AFIX
+155,MIX (Malta internet Exchange),http://www.mix.net.mt/,Msida,MT,Euro-IX
+69795,GTIX LAN 1 (Guatemala Internet Traffic Exchange Point),www.ixp.gt,Guatemala,GT,LAC-IX
+82077,MVIXP (Maldives Internet Exchange),https://mvixp.org/,Male',MV,APIX
+165,NIX2 (Norwegian Internet Exchange 2),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Oslo,NO,Euro-IX
+162,NorrNod (NorrNod),http://www.norrnod.se,Umea,SE,Euro-IX
+168,Netnod Sundsvall (Netnod Sundsvall),https://www.netnod.se,Sundsvall,SE,Euro-IX
+169,GIX (Gothenburg Internet Exchange),http://www.gix.se/,Gothenburg,SE,Euro-IX
+166,Netnod Gothenburg (Netnod Gothenburg),https://www.netnod.se,Gothenburg,SE,Euro-IX
+163,TLLIX (Tallinn Internet Exchange),http://www.tllix.net,Tallinn,EE,Euro-IX
+172,BDIX - Dhaka (Bangladesh Internet Exchange),http://www.bdix.net/,Dhaka,BD,APIX
+171,IXOR (Internet eXchange point of the Oresund Region),http://www.ixor.se/,Malmoe,SE,Euro-IX
+173,HKIX (Hong Kong Internet Exchange),http://www.hkix.net/hkix/main.htm,Hong Kong,HK,APIX
+175,IIX - Tel Aviv (Israeli Internet eXchange),http://www.isoc.org.il/iix/2x.html,Tel-Aviv,IL,Euro-IX
+174,IIX Jakarta,http://www.iix.net.id/,Jakarta,ID,APIX
+71854,ManxIX,https://manxix.im/index.html,Douglas,IM,Euro-IX
+90808,PR-IX,,,,LAC-IX
+179,NIXI - Chennai (National Internet Exchange of India - Chennai),http://nixi.in/,Chennai,IN,APIX
+178,NIXI - Mumbai (National Internet Exchange of India - Mumbai),http://nixi.in/,Mumbai,IN,APIX
+180,NIXI - Kolkata (National Internet Exchange of India - Kolkata),http://nixi.in/,Kolkata,IN,APIX
+71858,PaducahIX,https://paducahix.net,Paduch,US,North America
+182,JPIX - Osaka (Japan Internet Exchange - Osaka),http://www.jpix.ad.jp/,Osaka,JP,APIX
+90809,THAILAND IX (TH-IX),,,,APIX
+183,JPNAP Osaka,http://www.jpnap.net/,Osaka,JP,APIX
+84153,XSIX VAN,https://xentainsolutions.com/ixp,Vancouver,CA,North America
+69817,THESS-IX (Thess-IX),https://www.thess-ix.net,Thessaloniki,GR,Euro-IX
+186,6NGIX (IPv6 Next Generation Internet eXchange),http://vsix.net/eng/,Seoul,KR,APIX
+84155,NMBINX,,,,AFIX
+190,CHIX - Christchurch (Christchurch Internet Exchange),http://nzix.net/,Christchurch,NZ,APIX
+189,APE - Auckland (Auckland Peering Exchange),http://nzix.net/,Auckland,NZ,APIX
+90811,KG-IX Bishkek,,,,Euro-IX
+71872,Aloha-IX (Ninja-IX),http://www.aloha-ix.net,Kapolei (Oahu),US,North America
+84161,Peru IX (PIT Peru sac) - Tacna,https://peruix.net/peering-en-el-peru-ix-pit-peru-sac-tacna/,,,LAC-IX
+84159,NorthIX,https://northix.dk,,,
+197,HTN-IX (Cambodia Internet Exchange),http://www.htnetworks.com.kh/,Phnom Penh,KH,APIX
+84157,NVIX,https://www.nvix.us,Las Vegas,US,North America
+90813,KRIX(SEJONG),,,,APIX
+84162,Peru IX (PIT Peru sac) - Huancayo,https://peruix.net/peering-en-el-peru-ix-pit-peru-sac-huancayo/,,,LAC-IX
+199,NYIIX (New York International IX),http://www.nyiix.net/,New York,US,North America
+90314,AXCIX Dusseldorf,https://arexico.com/exchange,Düsseldorf,DE,Euro-IX
+193,SOX - Singapore (Singapore Open eXchange),http://www.sox.net.sg/,Singapore,SG,APIX
+198,NYIIX Los Angeles,https://www.nyiix.net/locations/nyiix-la/,Los Angeles,US,North America
+71882,Charlotte-IX (Ninja-IX),http://www.charlotte-ix.net,"Morrisville, NC",US,North America
+90814,Manama IX,,,,Euro-IX
+71883,Dallas-IX (Ninja-IX),http://www.dallas-ix.net,"Irving, TX",US,North America
+71885,Raleigh-IX (Ninja-IX),http://ninja-ix.net,"Morrisville, NC",US,North America
+210,Beirut-IX (Beirut Internet Exchange),http://www.beirutix.net/,Beirut,LB,Euro-IX
+212,ChIX (Chicago Internet eXchange),https://unitedix.net/,Chicago,US,North America
+90815,Palestine Internet Exchange Point - PSIX,,,,Euro-IX
+208,Netnod Lulea (Netnod Lulea),https://www.netnod.se,Lulea,SE,Euro-IX
+71884,Houston-IX (Ninja-IX),http://www.housoin-ix.net,,US,North America
+219,"IX.br Brasilia, DF (DF))",http://www.nic.br,Brasilia,BR,LAC-IX
+220,"IX.br Curitiba, PR (PR))",http://www.nic.br,Curitiba,BR,LAC-IX
+71888,LasVegas (Ninja-IX),http://www.vegas-ix.net,"Las Vegas, NV",US,North America
+214,PIX (Poznan Internet Exchange),http://www.pix.net.pl/,Poznan,PL,Euro-IX
+213,FIXO (Free Internet eXchange Oslo),http://www.fixo.no/,Oslo,NO,Euro-IX
+222,"IX.br Porto Alegre, RS (RS))",http://www.nic.br,Porto Alegre,BR,LAC-IX
+71887,Sacramento-IX (Ninja-IX),http://www.sacramento-ix.net,"Sacramento, CA",US,North America
+209,R-iX (Rotterdam Internet eXchange),http://www.r-ix.nl/,Rotterdam,NL,Euro-IX
+224,"IX.br Salvador, BA (BA))",http://www.nic.br,Salvador da Bahia,BR,LAC-IX
+73953,FMIX (Fargo-Moorhead Internet Exchange),https://fmix.net,Fargo,US,North America
+225,NAP Chile (NAP Chile),http://www.nap.cl/index.html,Santiago,CL,LAC-IX
+217,NAP.EC Quito (NAP Ecuador by AEPROVI),http://www.nap.ec,Quito,EC,LAC-IX
+221,"IX.br Florianopolis, SC (SC))",http://www.nic.br,Florianopolis ,BR,LAC-IX
+78046,PITER-IX Frankfurt,https://piter-ix.ru,Frankfurt,DE,Euro-IX
+232,NIXI - Ahmedabad (National Internet Exchange of India - Ahmedabad),http://nixi.in/,Ahmedabad,IN,APIX
+227,MINAP (Milan Neutral Access Point),https://www.minap.it/,Milano,IT,Euro-IX
+226,NAP.Peru (NAP.Peru),http://www.nap.pe,Lima,PE,LAC-IX
+218,"IX.br Belo Horizonte, MG (MG))",http://www.nic.br,Belo Horizonte,BR,LAC-IX
+78049,PITER-IX Helsinki,http://www.piter-ix.ru,Helsinki,FI,Euro-IX
+228,Giganet (Giganet),http://giganet.ua/,kiev,UA,Euro-IX
+223,"IX.br Rio de Janeiro, RJ (RJ))",http://www.nic.br,Rio de Janeiro,BR,LAC-IX
+233,NIXI - Bangalore (National Internet Exchange of India - Bangalore),http://nixi.in/,Bangalore,IN,APIX
+237,rnd-ix (RND-IX public peering VLAN),http://www.msk-ix.ru/,Rostov on Don,RU,Euro-IX
+238,Equinix Sydney (Equinix Sydney Data Centers),http://www.equinix.com/en_US/locations/australia/sydney-data-centers/,Sydney,AU,APIX
+78051,PITER-IX Tallin,https://piter-ix.ru,Tallin,EE,Euro-IX
+239,Equinix Hong Kong (Equinix Hong Kong Exchange),http://www.equinix.com/en_US/locations/hong-kong/hong-kong-data-center/,Hong Kong,HK,APIX
+234,NIXI - Hyderabad (National Internet Exchange of India - Hyderabad),http://nixi.in/,Hyderabad,IN,APIX
+240,Equinix Singapore (Equinix Singapore Exchange),http://www.equinix.com/locations/map/asiapacific/singapore/,Singapore,SG,APIX
+78052,PITER-IX Moscow,https://piter-ix.ru,Moscow,RU,Euro-IX
+241,Equinix Tokyo (Equinix Tokyo Exchange),http://www.equinix.com/en_US/locations/japan/tokyo-data-centers/,Tokyo,JP,APIX
+243,HIX - Hamilton (Hamilton Internet Exchange),http://nzix.net/,Hamilton,NZ,APIX
+242,MyIX  (Malaysia Internet Exchange),http://www.myix.gov.my/,Kuala Lumpur,MY,APIX
+244,TPIX - Taipei (Taipei Internet Exchange),http://www.tpix.com.tw/,Taipei,TW,APIX
+247,BIX Bergen (Bergen Internet Exchange),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Bergen,NO,Euro-IX
+245,KAZ-IX (Kazakhstan Traffic Exchange),http://www.kaz-ix.kz/web/,Almaty,KZ,Euro-IX
+86261,DE-CIX Bangalore (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.in/de-cix-bangalore,Bangalore,IN,APIX
+246,OTTIX (Ottawa Internet eXchange),http://www.ottix.net/,Ottawa,CA,North America
+252,Balkan-IX (Balkan Internet Exchange),http://www.b-ix.net/,Sofia,BG,Euro-IX
+249,IX-NN (IX of Nizhny Novgorod),http://www.giport.ru/ixnn,Nizhny Novgorod,RU,APIX
+248,TRDIX (Trondheim Internet Exchange),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Trondheim,NO,Euro-IX
+254,TIX Tromsø (Tromsø Internet Exchange),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Tromsø,NO,Euro-IX
+255,SIX Stavanger (Stavanger Internet Exchange),http://www.uio.no/tjenester/it/nett/fastnett/nix/,Stavanger,NO,Euro-IX
+253,DTEL-IX (Digital Telecom Internet Exchange),http://dtel-ix.net/,Kiev,UA,Euro-IX
+257,Angola IXP,http://www.angola-ixp.ao/,Luanda,AO,AFIX
+258,BINX (Botswana Internet Exchange),http://www.info.bw/bispa/binx.html,Gaborone,BW,AFIX
+256,HIX - Honolulu (Hawaii Internet Exchange),http://www.hawaii.edu/hix/Hawaii_Internet_Exchange/Home.html,Honolulu,US,North America
+261,CIVIX (Cote d’Ivoire Internet eXchange Point),http://www.ciixp.ci,Abidjan,CI,AFIX
+259,KINIX (KINshasa Internet eXchange point),http://www.ispa-drc.cd/,Kinshasa,CD,AFIX
+262,CAIX (Cairo Internet Exchange),http://caix.net.eg/,Cairo,EG,AFIX
+263,MIX (Malawi Internet Exchange),http://www.mispa.org.mw/mix.html,Blantyre,MW,AFIX
+264,Cape Town Internet Exchange Point (INX),http://www.ispa.org.za/inx/cinx-information/,Cape Town,ZA,AFIX
+265,TIX Tanzania - Arusha (AIXP),http://www.aixp.or.tz/,Arusha,TZ,AFIX
+16653,JEDIX,https://www.jedix.net,Jeddah,SA,Euro-IX
+266,ZINX (Zimbabwe Internet Exchange),http://www.zispa.org.zw/zinx.html,Harare,ZW,AFIX
+268,Equinix São Paulo,https://www.equinix.com,Sao Paulo,BR,LAC-IX
+267,"IX.br Londrina, PR (LDA))",http://www.nic.br,Londrina,BR,LAC-IX
+269,NAP.EC Guayaquil (NAP Ecuador by AEPROVI),http://www.nap.ec,Guayaquil,EC,LAC-IX
+10508,Northern New England Neutral Internet Exchange - Maine (Northern New England Neutral Internet Exchange),http://www.nnenix.net/,Portland,US,
+270,OCIX - Philipsburg (Open Caribbean Internet eXchange),http://www.ocix.net/,Philipsburg,AN,LAC-IX
+272,YRIX (Yellowstone Regional Internet Exchange),http://www.yrix.org/,Billings,US,North America
+274,NWIX - Helena (Northwest Internet Exchange - Helena),http://www.nwix.org/,Helena,US,North America
+277,SFMIX (San Francisco Metropolitan Internet Exchange),http://www.sfmix.org/,Fremont,US,North America
+12568,IXP.Mk,v,skopje,MK,APIX
+276,NWAX (NWAX),http://www.nwax.net/,Portland,US,North America
+275,KCIX Kansas City (Kansas City Internet Exchange),http://www.kcix.net/,Kansas City,US,North America
+282,Digital Realty - New York (Digital Realty New York),http://www.digitalrealty.com,New York,US,North America
+281,Digital Realty - Dallas (Digital Realty  Dallas),http://www.digitalrealty.com,Dallas,US,North America
+283,Digital Realty - Phoenix (Digital Realty Phoenix),http://www.digitalrealty.com,Phoenix,US,North America
+285,Equinix San Jose (Equinix San Jose),http://www.equinix.com/,San Jose,US,North America
+284,PHOpenIX (Philippines Open Internet Exchange),http://www.phopenix.net/,Manilla,PH,APIX
+286,Equinix Los Angeles (Equinix Los Angeles),http://www.equinix.com/,Los Angeles,US,North America
+287,Equinix Dallas (Equinix Dallas),http://www.equinix.com/,Dallas,US,North America
+289,Equinix New York (Equinix New York),http://www.equinix.com/,New York,US,North America
+288,Equinix Chicago (Equinix Chicago),http://www.equinix.com/,Chicago,US,North America
+290,Any2 (CoreSite) Boston (Any2 (CoreSite) Boston),,Boston,US,North America
+291,Any2 (CoreSite) Chicago (Any2 (CoreSite) Chicago),,Chicago,US,North America
+292,Any2 (CoreSite) Miami (Any2 (CoreSite) Miami),,Miami,US,North America
+293,Any2 (CoreSite) Silicon Valley,http://www.coresite.com/,Milpitas,US,North America
+294,Any2 (CoreSite) New York (Any2 (CoreSite) New York),,New York,US,North America
+295,Any2 (CoreSite) NorthEast,http://www.coresite.com,Reston,US,North America
+80165,SKNIX,https://sknix.kn,Basseterre,KN,North America
+80163,Extreme IX Bangalore (Extreme Internet Exchange India),https://extreme-ix.org,Bangalore,IN,APIX
+51501,QCIX Main (Quad Cities Internet Exchange),https://www.qcix.net/,Bettendorf,US,North America
+298,Big APE (The big apple peering Exchange),http://www.bigape.us/,New York,US,North America
+72107,Tucson-IX (Ninja-IX),http://www.ninja-ix.net/,,US,North America
+302,Equinix Palo Alto (Equinix Palo Alto),,Palo Alto,US,North America
+304,Digital Realty Ashburn,https://ix.digitalrealty.com/,Vienna,US,North America
+80164,SUR-IX (Suriname Internet Exchange),http://www.sur-ix.sr,Paramaribo,SR,LAC-IX
+51502,SpokaneIX (Spokane Internet Exchange),https://spokaneix.net,Spokane,US,North America
+74032,Infrastructure #1 (Free IX),https://free-ix.net/,Rümlang,CH,Euro-IX
+306,OIX (Oregon Internet Exchange),http://www.oregon-ix.net/,Eugene,US,North America
+310,PIX Toronto (Peer1 Internet Exchange Toronto),http://www.peer1.com/infrastructure/pix.php,Toronto,CA,North America
+307,CoreSite - Any2 Denver / RMIX Denver (CoreSite - Any2 Denver / RMIX Denver),http://comfluent.com/rmix.php,Denver,US,North America
+309,PIX Montreal (Peer1 Internet Exchange Montreal),http://www.peer1.com/infrastructure/pix.php,Montreal,CA,North America
+305,Pacific Wave,http://www.pacificwave.net/participants/current/,Los Angeles & Seattle,US,North America
+313,"IX.br Fortaleza, CE (CE))",http://www.nic.br,Fortaleza,BR,LAC-IX
+311,PIX Vancouver (Peer1 Internet Exchange Vancouver),http://www.peer1.com/infrastructure/pix.php,Vancouver,CA,North America
+312,"IX.br Campinas, SP (CAS))",http://www.nic.br,Campinas,BR,LAC-IX
+314,"IX.br Recife, PE (PE))",http://www.nic.br,Recife,BR,LAC-IX
+315,MadIX (Madison Internet eXchange Peering Point),http://kb.wisc.edu/ns/page.php?id=6636,Madison,US,North America
+316,Phoenix-IX (Ninja-IX),http://phoenix-ix.net/,Phoenix,US,North America
+318,SOAX (Southern Oregon Access Exchange),http://soax.org/,Medford,US,North America
+82238,EdgeIX Singapore (EdgeIX),http://www.edgeix.net,Singapore,SG,APIX
+317,DRF IX (DRFortress Exchange),http://www.drfortress.com/internet-exchange/drfxchange/,Honolulu,US,North America
+320,BOR-IX (Boras Internet Exchange),http://www.bor-ix.se/,Boras,SE,Euro-IX
+10561,PhillyIX (Philadelphia Internet Exchange),http://phillyix.net,Philadelphia,US,North America
+323,kzn-ix (KZN-IX public peering VLAN),http://www.msk-ix.ru/,Kazan,RU,Euro-IX
+322,France-IX Toulouse,https://www.franceix.net/en/pops-en/franceix-toulouse,Toulouse,FR,Euro-IX
+327,BYIX (Belarus National Internet Exchange Point),http://www.eng.beltelecom.by/services/internet/access/,Minsk,BY,Euro-IX
+326,MD-IX (Moldova Internet Exchange),http://www.moldtelecom.md/en/operators/exchange/,Chisinau,MD,Euro-IX
+82247,DE-CIX Oslo,https://www.de-cix.net/locations/oslo,Oslo,NO,Euro-IX
+324,AAIX (Alpes Adria Internet Exchange),http://www.aaix.at/,Klagenfurt,AT,Euro-IX
+82248,DE-CIX Nordics,https://www.de-cix.net/en/locations/nordics,Oslo,NO,Euro-IX
+82249,DE-CIX Kristiansand,https://www.de-cix.net/en/locations/kristiansand,Kristiansand,NO,Euro-IX
+331,BNIIX (Buffalo Niagara International Internet Exchange),http://www.bniix.net/,Buffalo,US,North America
+82256,CENTRO-IX (Centro Internet Exchange),https://ix.centro.net.id,Pekanbaru - Jakarta,ID,APIX
+82251,DE-CIX Helsinki,https://www.de-cix.net/en/locations/helsinki,Helsinki,FI,Euro-IX
+332,AZIX (Arizona Internet Exchange),http://www.arizonaix.net/,Phoenix,US,North America
+82250,DE-CIX Copenhagen,https://www.de-cix.net/en/locations/copenhagen,Copenhagen,DK,Euro-IX
+335,Balcan-IX (Balcan-IX),http://www.balcan-ix.net/en/index.php,Bucharest,RO,Euro-IX
+329,"IX.br Campina Grande, PB (CPV))",http://www.nic.br,Campina Grande,BR,LAC-IX
+78163,JPNAP Fukuoka,https://www.jpnap.net/,Fukuoka,JP,APIX
+334,"IX.br Sao Jose dos Campos, SP (SJC))",http://www.nic.br,São José dos Campos,BR,LAC-IX
+341,MAE - Central (MAE - Central),http://www.mae.net/fac/mae-central.htm,Dallas and Chicago,US,North America
+330,"IX.br Goiania, GO (GYN))",http://www.nic.br,Goiania,BR,LAC-IX
+339,RINEX (Rwanda Internet Exchange),http://www.rinex.org.rw/,Kigali,RW,AFIX
+82254,CV-IXP (Associação Cabo Verde Internet Exchange Point),http://cvixp.cv,Praia,CV,AFIX
+337,PIRIX (PIRIX Internet Exchange),http://www.pirix.ru/,St. Petersburg,RU,Euro-IX
+24916,LocIX Düsseldorf (LocIX Internet Exchange Düsseldorf),https://locix.online,Düsseldorf,DE,Euro-IX
+344,EuroGIX (European Global Internet eXchange),http://www.rezopole.net/en/,Strasbourg,FR,Euro-IX
+16739,E-IX (ElectroNIX),https://e-ix.network/,,DE,Euro-IX
+61781,YXEIX (Saskatoon Internet Exchange Inc),https://www.yxeix.ca,Saskatoon,CA,North America
+350,MIX - Manila (Manila Internet Exchange),http://www.easterntelecom.com.ph/Products/index.asp?ID=39&MCID=3,Manila,PH,APIX
+338,Netnod Copenhagen (Netnod Copenhagen),https://www.netnod.se,Copenhagen,DK,Euro-IX
+86373,INIXP Asia (INIXP Team),https://ixpmanager.rpd.ne.jp/customer/details,Tokyo,JP,
+361,PIPE Networks Brisbane (PIPE Networks Brisbane),http://www.pipenetworks.com,Brisbane,AU,APIX
+360,PIPE Networks Adelaide (PIPE Networks Adelaide),http://www.pipenetworks.com,Adelaide,AU,APIX
+358,DN-IX (Donetsk Internet Exchange),http://www.ix.dn.ua/,Donetsk,UA,Euro-IX
+362,PIPE Networks Canberra (PIPE Networks Canberra),http://www.pipenetworks.com,Canberra,AU,APIX
+364,PIPE Networks Melbourne (PIPE Networks Melbourne),http://www.pipenetworks.com,Melbourne,AU,APIX
+363,PIPE Networks Hobart (PIPE Networks Hobart),http://www.pipenetworks.com,Hobart,AU,APIX
+359,ACT-IX (IX Australia (Canberra ACT)),http://www.ix.asn.au/,Canberra,AU,APIX
+356,SMARTHUB Internet Exchange / SH-IX,http://www.smarthubix.ae/,Abu Dhabi,AE,Euro-IX
+365,PIPE Networks Sydney (PIPE Networks Sydney),http://www.pipenetworks.com,Sydney,AU,APIX
+366,TransACT IX (TransACT IX),http://www.transact.com.au,Canberra,AU,APIX
+371,MOZ-IX (Mozambique Internet Exchange Point ),http://www.mozix.org.mz/english/join_to.htm,Maputo,MZ,AFIX
+367,iAIX  (iAdvantage Internet Exchange),http://www.iadvantage.net,Hong Kong,HK,APIX
+369,MICE (Midwest Internet Cooperative Exchange),http://www.micemn.net,Minneapolis,US,North America
+86387,IRAQ-IXP,,,,
+373,Equinix Seattle (Equinix Seattle),http://www.equinix.com/,Seattle,US,North America
+374,Equinix Toronto (Equinix Toronto),,Toronto,CA,North America
+370,NASA-AIX (NASA Ames Internet eXchange),http://www.nasa.gov/centers/ames,Mountain View,US,North America
+375,PIX Palestine (Palestine Internet Exchange),,Ramallah,PS,Euro-IX
+376,GraX (Grazer Internet Exchange ),http://www.grax.at/,Graz,AT,Euro-IX
+74158,San Diego-IX (Ninja-IX),http://ninja-ix.net,San Diego,US,North America
+377,LINX Manchester (LINX Manchester),https://www.linx.net/,Manchester,GB,Euro-IX
+74,SGIX (Singapore Internet Exchange),www.sgix.sg,Singapore,SG,APIX
+380,CyrusOne IX Dallas (CyrusOne IX Dallas),http://www.cyrusone.com/,Carrollton,US,North America
+86371,SONIX Malmo (Sweden Open Network Internet Exchange),https://sonix.network,Malmö,SE,Euro-IX
+10622,ANIX (ANIX Tirana),https://www.anix.al/,Tirana,AL,Euro-IX
+384,NiCE (National Inter Connection Exchange ),http://www.openixp.net/,Jakarta,ID,APIX
+383,BIX - Jakarta (Biznet Internet eXchange),http://www.biznetnetworks.com/En/?menu=Bix,Jakarta,ID,APIX
+77,TorIX (Toronto Internet Exchange),http://www.torix.ca/,Toronto,CA,North America
+394,ARMIX (Armenian Internet Traffic Exchange),http://www.armix.am/eng/index.php,Yerevan,AM,Euro-IX
+12679,Piter-IX (Piter-IX),https://piter-ix.ru,,RU,Euro-IX
+391,BBIX - Osaka (Broadband Internet eXchange - Osaka),http://www.bbix.net/en/,Osaka,JP,APIX
+395,DXB (UAE-IX),http://www.uae-ix.net/,Dubai,AE,Euro-IX
+396,"IX.br Sao Jose do Rio Preto, SP (SJP))",http://www.nic.br,São José do Rio Preto,BR,LAC-IX
+397,"IX.br Manaus, AM (MAO))",http://www.nic.br,Manaus,BR,LAC-IX
+398,"IX.br Caxias do Sul, RS (CXJ))",http://www.nic.br,Caxias do Sul,BR,LAC-IX
+399,"IX.br Vitoria, ES (VIX))",http://www.nic.br,Vitória,BR,LAC-IX
+400,"IX.br Belem, PA (BEL))",http://www.nic.br,Belém,BR,LAC-IX
+401,"IX.br Natal, RN (NAT))",http://www.nic.br,Natal,BR,LAC-IX
+16786,BelgiumIX (Belgiumix.net),https://belgiumix.net,,BE,Euro-IX
+402,KOSIX (Kosovo Internet Exchange Point),http://www.kosix.net/,Prishtinë,xk,Euro-IX
+70034,IXSY (Internet Exchange Services Yucatan),http://ixsy.org.mx,Yucatán,MX,
+76182,IXPlay España,https://www.ixplay.es,Madrid,ES,Euro-IX
+70037,IXDO (Punto de Intercambio de Internet de la República Dominicana),https://ix.do,Santo Domingo,DO,LAC-IX
+10646,Community-IX DE,https://www.community-ix.de/,,,Euro-IX
+76183,FREMIX (Free Metro Internet Exchange),https://www.fremix.exchange,Fremont,US,North America
+76178,RUDAKI-IX (RUDAKI INTERNET EXCHANGE),http://rudaki-ix.net/,Kyiv,UA,Euro-IX
+409,SIXP (Sudan Internet Exchange Point),www.nic.gov.sd,Khartoum,SD,AFIX
+405,stw-ix (STW-IX public peering VLAN),http://www.msk-ix.ru/,Stavropol,RU,Euro-IX
+70046,Bangkok Neutral Internet Exchange Chiang Mai (BKNIX),https://www.bknix.co.th,Chiang Mai,TH,APIX
+413,QLD-IX (IX Australia (Brisbane QLD)),http://www.ix.asn.au/,Brisbane,AU,APIX
+415,NSW-IX (IX Australia (Sydney NSW)),http://www.ix.asn.au/,Sydney,AU,APIX
+412,SA-IX (IX Australia (Adelaide SA)),http://www.ix.asn.au/,Adelaide,AU,APIX
+416,MBIX,http://www.mbix.ca/,Winnipeg,CA,North America
+16802,InteRed LAN1 (InteRed),http://intered.org.pa/intered/,Ciudad de Panamá,PA,LAC-IX
+417,KM-IX (Khmelnytskiy Internet Exchange),http://ix.km.ua/,Khmelnytskiy,UA,Euro-IX
+55715,BFD-IX (BFD-IX),https://bfdix.com,Bradford,GB,Euro-IX
+420,BREM-IX (Bremen Internet Exchange),http://www.brem-ix.net/,Bremen,DE,Euro-IX
+16801,Switch #1 (Gavlix),http://www.gavlix.se,Gavle,SE,Euro-IX
+422,BostonIX (Markley Boston Internet Exchange),http://www.markleygroup.com/Peering,Boston,US,North America
+78247,FD-IX - Iowa (Fiber Data Internet Exchange - Iowa),https://fd-ix.com,Altoona,US,North America
+78246,FD-IX - Texas (Fiber Data Exchange - Texas),https://www.fd-ix.com,Houston,US,North America
+10664,BHNIX (Bosnia and Herzegovina Neutral Internet Exchange),http://bhnix.ba/en/,Sarajevo,BA,Euro-IX
+78250,FogIXP,https://fogixp.org,Avers,CH,Euro-IX
+78248,JPNAP Sendai/Sapporo,https://www.jpnap.net/,Sendai,JP,APIX
+72108,Bahamas-IX (Ninja-IX),http://www.ninja-ix.net/,Nassau,BS,North America
+74157,Huntsville-IX (Ninja-IX),http://ninja-ix.net,Huntsville,US,North America
+428,JXIX (Jacksonville Internet Exchange),http://jxix.org/,Jacksonville,US,North America
+423,LINX Scotland (LINX Scotland),https://www.linx.net/,Edinburgh,GB,Euro-IX
+72106,Norfolk-IX (Ninja-IX),http://www.ninja-ix.net/,,US,North America
+430,OmahaIX (Omaha Internet Exchange),http://www.omahaix.com,Omaha,US,North America
+429,MKEIX (Milwaukee Internet Exchange),http://www.mkeix.net/,Milwaukee,US,North America
+94639,NAP VE (NAP VE),https://www.nap.com.ve,Caracas,VE,LAC-IX
+74164,JumboIX Peru,https://www.iptp.com/es_ES/jumbo-internet- > exchange/jumboix-peru-pricing-plans/,Lima,PE,
+437,LINX NoVA (LINX NoVA),https://www.linx.net/,Ashburn,US,North America
+438,IXP-MegaLink (IXP MegaLink),http://www.megalink.com/ixp/,La Paz,BO,LAC-IX
+440,France-IX Marseille,https://www.franceix.net,Marseille,FR,Euro-IX
+439,Lillix (Lille Internet Exchange),http://www.lillix.fr/,Lille,FR,Euro-IX
+436,tdc-ops-sw1 (SUPRnet),http://suprnet.net/,St. George,US,North America
+442,EPIX Warsaw (e-Poludnie Internet Exchange),http://www.epix.net.pl,Warsaw,PL,Euro-IX
+443,Equinix Atlanta (Equinix Atlanta),ix.equinix.com,Atlanta,US,North America
+444,Equinix Helsinki (Equinix Helsinki),http://www.equinix.com/,Helsinki,FI,Euro-IX
+445,DIX-IE (Distributed IX in EDO),http://nspixp.wide.ad.jp/,Tokyo,JP,APIX
+94654,DE-CIX Mexico,https://www.de-cix.net/en/locations/mexico,Querétaro,MX,LAC-IX
+447,AMPATH (AMPATH - Florida International University/CIARA),http://www.ampath.net/peering.php,Miami,US,North America
+448,OCIX Düsseldorf (OpenCarrier e.G. Member IX Düsseldorf),http://www.opencarrier.eu/,Düsseldorf,DE,Euro-IX
+72131,ISTIX (Istanbul Internet Exchange),https://www.istix.com.tr,Istanbul,TR,Euro-IX
+450,CNC Beijing NAP (CNC Beijing NAP),,Beijing,CN,APIX
+16837,IXP Ecuador - MEC,https://www.ixp.ec/,Manta,EC,LAC-IX
+454,DO-IX LAN (DOrtmund Internet eXchange),https://www.do-ix.net/,Dortmund,DE,Euro-IX
+456,LIPTAM (Lietuvos Interneto paslaugų tiekėjų apsikeitimo mazgu),http://is.lt,Vilnius,LT,Euro-IX
+16838,IXP Ecuador - STD,http://www.ixp.ec/,Santo Domingo,EC,LAC-IX
+458,MAD (DE-CIX Madrid),https://www.de-cix.net/locations/madrid,Madrid,ES,Euro-IX
+90,ULN-IX (Ulyanovsk Internet Exchange),http://www.uln-ix.ru/,Ulyanovsk,RU,Euro-IX
+460,MCIX (Matrix Cable Internet eXchange),http://www.nap.net.id,Jakarta,ID,APIX
+459,GU-IX (Guam Internet Exchange),http://www.gu-ix.net/,Hagåtña,GU,APIX
+461,GIX Gdansk (Gdansk Internet eXchange),http://www.gix.gda.pl,Gdansk,PL,Euro-IX
+90788,Peru IX (PIT Peru sac) - Trujillo,,,,LAC-IX
+463,GTIIX (Greater Toronto IIX),,Toronto,CA,North America
+466,RTIX (Tallinn Governmental Internet Exchange),http://www.rtix.ee/rtix/,Tallin,EE,Euro-IX
+464,COIX (Central Oregon Internet Exchange),http://www.centraloregonix.org,Bend,US,North America
+467,litix (Lithuanian Internet exchange),http://www.lixp.lt,Vilnius,LT,Euro-IX
+16782,OGIX-LAN (Ottawa Gatineau Internet Exchange),https://ogix.ca/,Ottawa,CA,North America
+468,Rheintal IX (Rheintal IX),http://www.rheintal-ix.net,Eschen,LI,Euro-IX
+470,Equinix Miami (Equinix Miami),http://www.equinix.com/,Miami,US,North America
+472,Durban Internet Exchange Point (INX),http://www.inx.net.za,Durban,ZA,AFIX
+471,Echigo-IX (Echigo Internet Exchange),http://www.echigo-ix.jp/,Niigata,JP,APIX
+670,LSIX Netherlands (LayerSwitch Internet Exchange),https://www.datafacilities.nl,Amsterdam,NL,Euro-IX
+473,AHTIC LAN 1 (AHTIC IXP of Haiti),,Port au Pince,HT,LAC-IX
+475,OMSK-IX (Omsk Internet Exchange),http://omsk-ix.ru/,Omsk,RU,Euro-IX
+479,VUIX (Vanuatu Internet Exchange),,Port Vila,VU,APIX
+480,TP-IX (Twin Ports IX),http://tp-ix.net,Duluth,US,North America
+482,"IX.br Lajeado, RS (LAJ))",http://www.nic.br,Lajeado,BR,LAC-IX
+485,"IX.br Cuiabá, MT (CGB)",http://www.nic.br,Cuiabá,BR,LAC-IX
+486,SLIX (Salt Lake Internet Exchange),http://www.slix.net,Salt Lake City,US,North America
+478,YAR-IX (Yaroslavl Internet Exchange),http://yar-ix.net/,Yaroslavl,RU,Euro-IX
+483,"IX.br Maringa, PR (MGF))",http://www.nic.br,Maringá,BR,LAC-IX
+90789,Peru IX (PIT Peru sac) - Piura,,,,LAC-IX
+72171,Thai-IX Malaysia by CS Loxinfo,,,MY,
+72173,Thai-IX Bangkok by CS Loxinfo,,Bangkok,TH,
+14833,KAZNIX LAN1 (KazNIX),https://kaznix.kz,Semey,KZ,Euro-IX
+16884,VarnaIX,https://www.varnaix.net/en/index.html,Varna,BG,Euro-IX
+500,DataIX Internet Exchange (DataIX Internet Exchange),https://dataix.eu,Amsterdam,NL,Euro-IX
+14843,Securebit AG,https://www.securebit.ch,Zurich,CH,Euro-IX
+481,CIX KR (CIX - Cracow Internet Exchange),http://www.ix.krakow.pl/,Krakow,PL,Euro-IX
+508,Guyanix (Guyana Internet Exchange Point),https://www.renater.fr/,Cayenne,GY,LAC-IX
+509,angonix,http://angonix.net/,Luanda,AO,AFIX
+510,AMS-IX USA Bay Area,https://ams-ix.net/,San Francisco,US,North America
+72172,Thai-IX Singapore by CS Loxinfo,,Singapore,SG,
+474,Sea-IX (South Russia IX),http://sea-ix.ru/,Krasnodar,RU,Euro-IX
+513,VANIX (Vancouver Internet eXchange),http://www.vanix.ca,Vancouver,CA,North America
+511,AMS-IX USA Chicago,https://ams-ix.net/,Chicago,US,North America
+78340,GLV-IX (Government of Latvia Internet Exchange),https://glv-ix.lv/customer/details,Riga,LV,Euro-IX
+518,GREX (Grenada Internet Exchange),https://ixgd.wordpress.com,St. George's,GD,LAC-IX
+476,GCIIX (Greater Chicago International Internet Exchange),http://www.gciix.net,Chicago,US,North America
+477,PacificIX (PacificIX),http://www.vocus.com.au/pacificix/,Sydney,AU,APIX
+522,CRIX (Costa Rica Internet Exchange),https://www.crix.cr,San Jose,CR,LAC-IX
+520,IX.LODZ.PL (Lodz Telecommunication Node),,Lodz,PL,Euro-IX
+525,LINX Wales (LINX Wales),https://www.linx.net/,Cardiff,GB,Euro-IX
+524,FL-IX (Florida Internet Exchange),http://www.communityix.org,Florida,US,North America
+529,mixp (Mauritius Internet eXchange Point),http://www.mixp.org,Ebene City,MU,AFIX
+527,Benin-IX (Benin Internet eXchange),www.benin-ix.org.bj,Cotonou,BJ,AFIX
+531,EPIX (e-Poludnie Internet Exchange),http://www.epix.net.pl,Warsaw,PL,Euro-IX
+16915,STHIX - Sundsvall (Stockholm Internet eXchange AB),https://www.sthix.net/,Sundsvall,SE,Euro-IX
+537,BFIX Ouagadougou (Burkina Faso Internet Exchange Point),www.bfix.bf,Ouagadougou,BF,AFIX
+533,DjIX (Djibouti IX),http://www.djiboutidatacenter.com/en/page/djibouti-ix-djix,,DJ,AFIX
+18970,EdgeIX Adelaide (EdgeIX),http://www.edgeix.net,Adelaide,AU,APIX
+544,DataLine-IX (DataLine-IX),http://www.dtln.ru/en,Moscow,RU,APIX
+545,Equinix Melbourne (Equinix Melbourne),http://www.equinix.com.au,Melbourne,AU,APIX
+542,IX-MEL (Melbourne IX),http://megaport.com,Melbourne,AU,APIX
+84514,Equinix Jeddah,,,,
+96799,Conex - IXP,https://conex-ixp.net/,,,LAC-IX
+546,IX-SYD (Sydney IX),http://megaport.com,Sydney,AU,APIX
+548,IX-AKL (Auckland IX),http://megaport.com,Auckland,NZ,APIX
+16931,MonctonIX (Moncton Internet Exchange),https://aixp.ca,"Moncton, New Brunswick",CA,
+552,OuestIX (OuestIX),http://www.ouestix.fr,Nantes,FR,Euro-IX
+551,IX-TOR (Toronto IX),http://megaport.com,Toronto,CA,North America
+550,IX-SIN (Singapore IX),http://megaport.com,Singapore,SG,APIX
+16933,Peru IX (PIT Peru sac) - Lima,http://www.pitperu.net/,Lima,PE,LAC-IX
+553,Global-IX,http://www.global-ix.ru/en/,Saint Petersburg,RU,Euro-IX
+556,CHN-IX Guangzhou,http://www.chn-ix.net/,Guangzhou,CN,APIX
+110,PMO (DE-CIX Palermo),https://www.de-cix.net/locations/palermo,Palermo,IT,Euro-IX
+555,CHN-IX Beijing,http://www.chn-ix.net/,Beijing,CN,APIX
+558,"AKL-IX (New Zealand Internet Exchange, Auckland)",https://ix.nz/,Auckland,NZ,APIX
+111,MRS (DE-CIX Marseille),https://www.de-cix.net/locations/marseille,Marseilles,FR,Euro-IX
+562,BBIX - Hong Kong,http://www.bbix.net/en/,Hong Kong,HK,APIX
+560,BR-IX (Brno Internet Exchange Point),http://br-ix.cz,Brno,CZ,Euro-IX
+571,UNIFI-IX (UNIFI-IX),http://unifi-ix.net,Coventry,GB,Euro-IX
+112,SIX - Košice (Slovak Internet eXchange - Košice),http://www.six.sk/,Košice,SK,Euro-IX
+19004,EdgeIX Darwin (EdgeIX),http://www.edgeix.net,Darwin,AU,APIX
+573,BBIX - Singapore (BBIX - Singapore),http://www.bbix.net/en/,Singapore,SG,APIX
+19006,EdgeIX Perth (EdgeIX),http://www.edgeix.net,Perth,AU,APIX
+19005,EdgeIX Hobart (EdgeIX),http://www.edgeix.net,Hobart,AU,APIX
+78400,AMS-IX Kolkata,https://www.ams-ix.net/kol,Kolkata,IN,APIX
+576,CNIX (China Internet Exchange),http://www.cnix.com.cn,Beijing,CN,APIX
+78398,ICX Vienna,https://www.icxglobal.net,Vienna,AT,Euro-IX
+78399,ICX Santiago,https://www.icxglobal.net,Santiago,CO,LAC-IX
+579,IX-ASH (Ashburn IX),http://megaport.com,Ashburn,US,North America
+581,IX-DAL (Dallas IX),http://megaport.com,Dallas,US,North America
+582,IX-LAX (Los Angeles IX),http://megaport.com,Los Angeles,US,North America
+578,IX-PER (Perth IX),http://megaport.com,Perth,AU,APIX
+585,"IX.br Foz do Iguau00e7u, PR (IGU))",http://www.nic.br,Foz do Iguaçu,BR,LAC-IX
+577,IX-BNE (Brisbane IX),http://megaport.com,Brisbane,AU,APIX
+587,AMS-IX Mumbai,https://ams-ix.net/,Mumbai,IN,APIX
+589,BW-IX Karlsruhe (Baden-Württemberg Internet Exchange Karlsruhe),http://www.inka.de,Karlsruhe,DE,Euro-IX
+27209,STHIX - Umeå (Stockholm Internet eXchange AB),http://www.sthix.net/,Umeå,SE,Euro-IX
+76366,National (Hangzhou) New-Type Internet Exchange Point,https://www.nnix.cn/,,,
+90714,Equinix Perth,,,,
+86,Thinx (Thinx Warsaw IX),http://en.atman.pl/offer/thinx_internet_exchange,Warsaw,PL,Euro-IX
+600,"IX.br Aracaju, SE (SE))",http://www.nic.br,Aracaju,BR,LAC-IX
+602,GE-CIX (GE-CIX),http://www.ge-cix.net/,Zurich,CH,Euro-IX
+90716,Equinix Barcelona,,,,
+90717,Equinix Seoul,,,,
+606,CyrusOne IX Houston (CyrusOne IX Houston),,Houston,US,North America
+608,CyrusOne IX San Antonio (CyrusOne IX San Antonio),,San Antonio,US,North America
+607,CyrusOne IX Austin (CyrusOne IX Austin),,Austin,US,North America
+609,CyrusOne IX Phoenix (CyrusOne IX Phoenix),,Phoenix,US,North America
+610,CyrusOne IX Chicago (CyrusOne IX Chicago),,Chicago,US,North America
+611,CyrusOne IX Sterling (CyrusOne IX Sterling),,Sterling,US,North America
+90722,CFLIX (Central Florida Internet Exchange),,,,
+90719,Equinix Montreal,,,,
+584,IX-SEA (Seattle IX),http://megaport.com,Seattle,US,North America
+90718,Equinix Muscat,,,,
+90725,FICIX 1 (Espoo) IPv6 MTU 9000,,,,
+90727,CINX Voice,,,,
+90723,FICIX 2 (Helsinki) IPv6 MTU 9000,,,,
+90724,FICIX 3 (Oulu) IPv6 MTU 9000,,,,
+90734,GigaPIX - LAN 2,,,,
+619,Equinix Osaka (Equinix Osaka),http://www.equinix.com/,Osaka,JP,APIX
+90733,GigaPIX - Oporto,,,,
+618,IX-Denver (Interconnection Exchange Denver),http://ix-denver.org/,Aurora,US,North America
+614,INEX Cork (Internet Neutral Exchange Association Limited by Guarantee),https://www.inex.ie/,Cork,IE,Euro-IX
+90730,JKT-IX Bali,,,,
+90735,JumboIX Cyprus,,,,
+90728,JKT-IX,,,,
+90736,DATAIX Singapore,,,,
+90742,Netnod Copenhagen BLUE -- MTU9K,,,,
+621,MidWest-IX - Indy,http://www.midwest-ix.com/,Indianapolis,US,North America
+630,HFXIX (Halifax Internet Exchange),https://hfxix.ca/,Halifax,CA,North America
+632,MiamiIX (Miami Internet Peering Exchange),http://www.miamiix.net,Miami,US,North America
+636,DET-IX (Detroit Internet Exchange),http://www.detroitix.com,Detroit,US,North America
+90741,Netnod Gothenburg -- MTU4470,,,,
+90747,Giganet IXN Amsterdam,,,,
+90752,BBIX London,,,,
+90753,BBIX Amsterdam,,,,
+90745,MIX Roma (Milan Internet Exchange),,Roma,IT,
+90751,BBIX Miami,,,,
+90748,BBIX Dallas,,,,
+90746,CitraIX Yogyakarta,,,,
+90754,BBIX Marseille,,,,
+90756,Digital Realty Chicago,,,,
+90758,CAMIX Yaounde,,,,
+90750,BBIX Chicago,,,,
+645,ESPANIX Madrid Upper LAN,http://www.espanix.net/,Madrid,ES,Euro-IX
+90762,IX Liverpool Internet of Things LAN,,,,
+90755,BBIX MAPS,,,,
+90757,CAMIX Douala,,,,
+642,MASS IX (MASS IX),http://www.towardex.com,Boston,US,North America
+90763,IX Liverpool GRX Peering Exchange (5G),,,,
+90761,IX Liverpool - Baltic Bubble,,,,
+90764,BIX Surabaya,,,,
+90765,BIX Malang,,,,
+90767,BIX Denpasar 1,,,,
+90766,BIX Semarang,,,,
+654,Breizh-IX (Breizh-IX),https://www.breizh-ix.net/,Rennes,FR,Euro-IX
+84618,IX.br Rio Branco,https://www.ix.br/trafego/agregado/ac,Rio Branco,BR,LAC-IX
+92821,FreeIX Greece (Free IX Greece),https://free-ix.gr/,Thessaloniki,GR,Euro-IX
+90768,BIX Denpasar 2,,,,
+651,KIVIX (Chisinau Internet Exchange),http://www.trabia.com,Chisinau,MD,Euro-IX
+90772,IIX-Rimba-2,,,,
+90773,IIX-Jogja,,,,
+90775,IIX-Sulampua,,,,
+90778,EPIX.Poznan,,,,
+90776,IIX-Sumsel,,,,
+90780,Asteroid Mombasa,,,,AFIX
+90783,DACS Central IX,,,,North America
+90782,DACS East IX,,,,North America
+90777,IIX-Jambi,,,,
+90784,DACS West IX,,,,North America
+86685,IX-ATL (Atlanta IX),www.megaport.com,,,
+72356,ASE (DE-CIX ASEAN),https://www.de-cix.net/locations/asean,Johor Bahru,MY,APIX
+675,CIX-ATL,http://www.communityix.org,Atlanta,US,North America
+72355,DSIX (DreamServer Internet Exchange),http://ix.dreamserver.ro,Bucharest,RO,Euro-IX
+674,EIX Delhi (Extreme Internet Exchange India),http://www.extreme-ix.org,Delhi,IN,APIX
+90791,DD-IX Dresden Internet Exchange (DD-IX Dresden Internet Exchange e.V.),,Dresden,DE,Euro-IX
+90790,Digital Edge EPIX Philippines,,,,APIX
+90774,IIX-Rimba-1,,,,
+679,DE-CIX  Delhi (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.in/de-cix-delhi/,Delhi,IN,APIX
+683,EIX Mumbai (Extreme Internet Exchange India),http://www.extreme-ix.org,Mumbai,IN,APIX
+684,Asia Smart IX (Asia Smart IX [BBIX Asia]),http://www.bbix.net/en/,Tokyo,JP,APIX
+90797,Barcelona-IX,,,,Euro-IX
+90793,DesMoinesIX,,,,North America
+90795,GOREX,,,,APIX
+90781,Asteroid Nairobi,,,,AFIX
+688,CDIX (Cyber Data Internet Xchange),http://www.cyberdc.net/,Jakarta,ID,APIX
+686,COD-IX (COD-IX),https://miran.ru/,St. Petersburg,RU,APIX
+96941,Guam IX,https://ix.gu,Harmon,GU,APIX
+90803,BEE-IX,,,,Euro-IX
+90801,HamroIX-Rome,,,,Euro-IX
+78512,HSIX APAC (HackerSpace Networking - Oceania),3414,Sydney,AU,APIX
+78511,"HSIX SA (HackerSpace Networking - Adelaide, SA)",https://www.hackerspace.net.au,Adelaide,AU,APIX
+90806,ISPAB-NIX,,,,APIX
+690,A.IX (Advanced Internet eXchange),http://www.a-ix.org,Beirut,LB,Euro-IX
+78514,IIX Estonia,http://iix.ee,Tallinn,EE,Euro-IX
+78513,"HSIX NZ (HackerSpace Networking - Auckland, NZ)",https://www.hackerspace.net.au3408,Auckland,NZ,APIX
+90810,GIX,,,,APIX
+680,DE-CIX Kolkata (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.net/en/locations/india/kolkata,Kolkata,IN,APIX
+90807,IXP.ge,,,,Euro-IX
+701,Equinix Dublin (Equinix Dublin),http://www.equinix.com/,Dublin,IE,Euro-IX
+90812,ANI-IX Delhi,,,,APIX
+702,Equinix Frankfurt (Equinix Frankfurt),http://www.equinix.com/,Frankfurt,DE,Euro-IX
+90817,Accra Internet Exchange LBG,,,,AFIX
+704,Equinix Manchester (Equinix Manchester),http://www.equinix.com/,Manchester,GB,Euro-IX
+703,Equinix London (Equinix London),http://www.equinix.com/,London,GB,Euro-IX
+90816,DCI Indonesia DCI-IX,,,,APIX
+90819,CLOUD-IX MSK,,,,Euro-IX
+708,APLIX.PL (APLIX),https://aplitt.pl/en/,Gdynia,PL,Euro-IX
+90821,CLOUD-IX EKT,,,,Euro-IX
+90820,CLOUD-IX SPB,,,,Euro-IX
+90818,FCIX,,,,North America
+76485,DLA-IX (DOUALA-IX),https://www.douala-ix.net/,Douala,CM,AFIX
+705,Equinix Stockholm (Equinix Stockholm),http://www.equinix.com/,Stockholm,SE,Euro-IX
+711,NIXVAL (Neutral Internet Exchange Valencia),https://www.nixval.com/en/,Valencia,ES,Euro-IX
+706,Equinix Milan (Equinix Milan),http://www.equinix.com/,Milan,IT,Euro-IX
+713,IF-IX (Ivano-Frankivsk Internet Exchnage),,,UA,Euro-IX
+717,Harare IX (Harare Internet Exchange),http://www.hix.org.zw,Harare,,AFIX
+718,IX-SOF (Sofia IX),http://megaport.com,Sofia,BG,Euro-IX
+716,Pittsburgh Internet Exchange (Pittsburgh Internet Exchange),https://pit-ix.net/,Pittsburgh,US,North America
+37580,RoCix,https://rocix.hat.cx/,,RO,Euro-IX
+720,ams (Asteroid Amsterdam IX),http://www.asteroidhq.com,Amsterdam,NL,Euro-IX
+721,MCA (MEX-IX McAllen),http://www.asteroidhq.com,McAllen,US,North America
+70364,ABQIX (New Mexico Internet Exchange DBA ABQIX),https://www.abqix.net,,US,LAC-IX
+723,BALT-IX (Baltic Internet Exchange),https://www.balt.net/other-services/internet-and-private-networks/balt-ix-internet-exchange/,Vilnius,LT,Euro-IX
+90847,GIX Cebu,,,,APIX
+82666,SBG-IX,https://sbg-ix.net,Strasbourg,FR,Euro-IX
+90848,MYNAP,,,,APIX
+90799,UNM-Exch Canada-West,,,,North America
+74474,SONIX Stockholm (Sweden Open Network Internet Exchange),https://sonix.network,Stockholm,SE,Euro-IX
+152,N-IX (Nurnberger Internet eXchange),http://www.n-ix.net/,Nurnberg,DE,Euro-IX
+150,TIX Tallinn (Tallinn Internet eXchange),http://tix.estpak.ee/,Tallinn,EE,Euro-IX
+76549,PTT Roraima,https://ptt.mprr.mp.br/trafego.php,Boa Vista,BR,LAC-IX
+90888,CHN-IX Shanghai,,,,APIX
+15112,NL-ix 2,https://www.nl-ix.net/,The Hague,NL,Euro-IX
+90890,OPTIX,,,,North America
+82253,SeptemberIX,https://septemberix.com,Amsterdam,NL,Euro-IX
+90887,DPE,,,,APIX
+90892,BGP.Exchange - Lyon,,,,Euro-IX
+86780,Naissix,https://naissix.net/,,,
+90891,BGP.Exchange - Cape Town,,,,AFIX
+90889,BGP.Exchange,,,,North America
+157,nsk-ix (NSK-IX public peering VLAN),http://www.msk-ix.ru/,Novosibirsk,RU,Euro-IX
+90908,NSPIXP3,,,,APIX
+90911,IXP FI HEL,,,,Euro-IX
+72466,PERM-IX (Perm traffic exchange point),https://perm-ix.ru/,Perm,RU,Euro-IX
+75054,Lambda-IX (Lambda Internet Exchange (MTU 1500)),https://lambda-ix.net/,Fremont,US,North America
+156,WIX - Poland (Warsaw Internet eXchange),http://www.wix.net.pl/,Warsaw,PL,Euro-IX
+90914,IXP DE NUR,,,,Euro-IX
+158,smr-ix (SMR-IX public peering VLAN),http://www.msk-ix.ru/,Samara,RU,Euro-IX
+90910,NetIX Greece,,,,Euro-IX
+90909,GlobalIXP,,,,Euro-IX
+88857,PIE Karachi,http://khi.de-cix.net,Karachi,PK,
+90916,IXP US FRE,,,,North America
+90915,IXP LI VAD,,,,Euro-IX
+88856,TAS-IX (IX Australia (Hobart TAS)),https://internet.asn.au,Perth,AU,
+90913,IXP NL DRO,,,,Euro-IX
+90917,Rottweiler Internet Exchange,,,,Euro-IX
+90918,IXP CA BEA,,,,North America
+88873,FIX Berlin (FIX-Berlin),https://fix-berlin.net/,Berlin,DE,
+90921,CitraIX Semarang,,,,APIX
+90920,BGPHaus,,,,Euro-IX
+90919,ELX-IX,,,,Euro-IX
+90912,IXP UK LON,,,,Euro-IX
+90802,OceanIX,,,,Euro-IX
+82741,Ontario Internet Exchange (Ontario Internet Exchange),https://www.onix.cx,Toronto,CA,North America
+73841,IXPN_PHC (INTERNET EXCHANGE POINT OF NIGERIA),https://ixp.net.ng,Port Harcourt,NG,AFIX
+572,LINX LON2 (LINX LON2),https://www.linx.net/,London,GB,Euro-IX
+90804,Zero Internet eXchange San Jose,,,,North America
+41821,Qatar Internet Exchange (QIX),https://www.qix.qa,Doha,QA,
+90805,XSIX FMT,,,,North America
+72537,Denver IX (Denver Internet Exchange),http://www.denverix.com/,"Denver, CO",US,North America
+78715,AMS-IX Hyderabad,https://www.ams-ix.net/hyd,Hyderabad,IN,APIX
+176,TWIX - Taipei (Taiwan Internet Exchange),http://www.twix.net/,Taipei,TW,APIX
+45705,OhioIX (Ohio IX),http://ohioix.net/,Columbus,US,
+78714,DE-CIX Phoenix,https://www.de-cix.net/en/locations/phoenix,Phoenix,US,North America
+78716,AMS-IX Singapore,https://www.ams-ix.net/sin,Singapore,SG,APIX
+81997,Peru IX (PIT Peru sac) - Cuzco,http://www.peruix.net,Cuzco,PE,LAC-IX
+74652,IXSal (Punto de Intercambio de Tráfico de Internet de El Salvador),https://ixsal.sv,San Salvador,SV,LAC-IX
+70549,VIXP,https://www.vixp.org,Balzers,LI,Euro-IX
+78743,Namex Bari IXP (Namex IXP),https://bari.namex.it/,Bari,IT,Euro-IX
+78773,ERA-IX (ERA-IX Amsterdam),https://www.era-ix.com/,,NL,Euro-IX
+13618,JHB (DE-CIX Johor Bahru),https://www.de-cix.net/locations/johor-bahru,,MY,APIX
+11163,National Internet Exchange Of Afghanistan (NIXA),nixa.af,Kabul,AF,APIX
+689,Kherson Traffic Exchange (Kherson Traffic Exchange Point),https://ix.ks.ua/,Kherson,UA,Euro-IX
+191,PNIX - Palmerston North (Palmerston North Internet Exchange),http://nzix.net/,Palmerston North,NZ,APIX
+70595,SpeedIX Internet Exchange (SpeedIX Internet Exchange),https://speed-ix.net/,,NL,Euro-IX
+84938,Equinix Mumbai,https://ix.equinix.com/,Chennai,IN,APIX
+192,WIX - Wellington (Wellington Internet Exchange),http://nzix.net/,Wellington,NZ,APIX
+84936,Consorzio Ge-DIX,https://www.ge-dix.net/,Genova,IT,Euro-IX
+84946,LabIX,https://ix.labitat.dk/,,,Euro-IX
+91102,LIONEX-LAN1 (Lilongwe Open Neutral Internet Exchange),,Lilongwe,MW,AFIX
+603,TahoeIX (Tahoe Internet Exchange),http://www.tahoeix.org,Tahoe,US,North America
+84940,EdgeIX Auckland (EdgeIX),,Auckland,NZ,APIX
+604,PKIX-LAHORE (PKIX-LAHORE),,LAHORE,PK,APIX
+196,VNIX - Ho Chi Minh (Vietnam National Internet eXchange - Ho Chi Minh),http://www.vnnic.vn/en,Ho Chi Minh City,VN,APIX
+195,VNIX - Hanoi (Vietnam National Internet eXchange - Hanoi),http://www.vnnic.vn/en,Hanoi,VN,APIX
+90794,SpringIX,,,,North America
+204,RED-IX (RED-IX (former KRS-IX)),http://www.krs-ix.ru/,Krasnoyarsk,RU,Euro-IX
+201,Stuttgart-IX,https://www.stuttgart-ix.de,Stuttgart,DE,Euro-IX
+613,INEX LAN2 (Internet Neutral Exchange Association Limited by Guarantee),https://www.inex.ie/,Dublin,IE,Euro-IX
+72720,Frys-IX Infrastructure (Frys-IX),http://www.frys-IX.net,Amsterdam,NL,Euro-IX
+616,NAPAfrica IX Cape Town (NAPAfrica),http://www.napafrica.net,Cape Towm,ZA,AFIX
+615,IX-LAS (Las Vegas IX),http://megaport.com,Las Vegas,US,North America
+72718,JinIX (Jinom Internet Exchange),https://jnms.jinom.net/,Gianyar,ID,
+68612,TEHRAN-IX,https://tehran-ix.ir,Tehran,IR,
+68657,FSIX (Free Sandefjord IX),http://fsix.no,Sandefjord,NO,Euro-IX
+13365,ix.kw (Kuwait Internet Exchange),https://ix.kw,Kuwait City,KW,Euro-IX
+68656,DE-CIX  Chennai (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.in/locations/de-cix-chennai,Chennai,IN,APIX
+617,NAPAfrica IX Durban (NAPAfrica),http://www.napafrica.net,Durban,ZA,AFIX
+17461,UEPG Internet Exchange (UEPG IX),https://ix.uepg.br/,Ponta Grossa,BR,LAC-IX
+83,WA-IX (IX Australia (Perth WA)),http://www.ix.asn.au/,Perth,AU,APIX
+78911,PNG Neutral IX Lae,http://www.pgix.org.pg/,Lae,PG,APIX
+78910,PNG Neutral IX POM,http://www.pgix.org.pg/,Port Moresby,PG,APIX
+78912,PNG Neutral IX Hagen,http://www.pgix.org.pg/,Mt Hagen,PG,
+83012,DE-CIX Esbjerg,https://www.de-cix.net,Esbjerg,DK,Euro-IX
+623,SIBIR-IX (SIBIR-IX),http://www.sibir-ix.ru,Krasnoyarsk,RU,Euro-IX
+625,TPA-IX (Tampa Internet Exchange),http://wowforbusiness.com/,Tampa,US,North America
+11338,GR-IX::Athens (Greek Internet Exchange),http://www.gr-ix.gr/,Athens,GR,Euro-IX
+11339,GR-IX::Thessaloniki (Greek Internet Exchange),http://www.gr-ix.gr/,Athens,GR,Euro-IX
+72706,Peru IX (PIT Peru) - Arequipa,www.peruix.net,Arequipa,PE,LAC-IX
+74836,LUBIX (Lubumbashi internet exchange point),http://www.ispa-drc.cd,Lubumbashi,CD,AFIX
+74838,GOMIX (Goma Exchange Point),http://www.ispa-drc.cd/,Goma,CD,AFIX
+83033,CitranetIX Surakarta,https://www.citraix.net/,Sukoharjo,ID,
+83031,IX Birmingham,https://www.proximitydatacentres.com,Birmingham,GB,
+83035,ThorIXP,https://thorix.peering.is/,Hafnarfjörður,IS,Euro-IX
+17504,IXPY LAN 1 (Punto de Intercambio de Internet del Paraguay),http://ix.py,San Lorenzo,PY,LAC-IX
+69017,ROPN-IX (Romanian Open Internet Exchange),https://www.ropnix.com,Bucharest,RO,Euro-IX
+11361,Somali Internet Exchange Point - Mogadishu,http://soixp.so/,Mogadishu,SO,AFIX
+85105,EdgeNxT,https://www.edgenxt.com,,,APIX
+85104,Giganet Frankfurt,http://giganet.ua/en,,DE,Euro-IX
+85103,City-IX Frankfurt,www.nl-ix.net,Frankfurt,DE,Euro-IX
+69019,InterAUS Melbourne (InterAUS Melbourne: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+85106,Zero Internet eXchange Amsterdam,https://ix.TimKevin.us,,,
+69020,InterAUS (InterAUS Adelaide: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+76925,Amaravati IX,https://amr-ix.net/,"Mangalagiri, Andhra Pradesh",IN,
+70781,48 IX (48 IX),https://48ix.net,,US,North America
+11389,GetaFIX,getafix.ph,Manila,PH,APIX
+69021,InterAUS Brisbane (InterAUS Brisbane: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+72835,CITI IXP.QRO (Consorcio para el Intercambio de Tráfico de Internet),http://ixp.mx,Queretaro,MX,LAC-IX
+81128,SBIX LON,https://www.securebit.ch/internet/exchange,London,GB,Euro-IX
+70952,ORD (DE-CIX Chicago),https://www.de-cix.net/locations/chicago,Chicago,US,North America
+638,Tirol-IX (Tirol-IX),http://www.citynet.at/,Hall in Tirol,AT,Euro-IX
+231,vlv-ix (VLV-IX public peering VLAN),http://www.msk-ix.ru/,Vladivostok,RU,Euro-IX
+69022,InterAUS Canberra (InterAUS Canberra: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+70800,4IXP (4B42 Internet Exchange Point),https://www.4ixp.com,Zurich,CH,Euro-IX
+644,T-CIX (T-CIX),http://www.t-cix.net/,Sofia,BG,Euro-IX
+640,NashIX (Nashville Internet Exchange),http://www.nashix.net/,Nashville,US,North America
+83117,Djamix,https://portal.djamix.td/,,TD,AFIX
+11439,EVIX (Experimental Virtual Internet Exchange),https://evix.org,Manitoba,CA,North America
+647,SFO-IX (SFO-IX),http://www.milecom.ru,Barnaul,RU,APIX
+23739,EdgeIX Melbourne (EdgeIX),http://www.edgeix.net,Melbourne,AU,APIX
+23737,EdgeIX Brisbane (EdgeIX),https://www.edgeix.net/,Brisbane,AU,APIX
+58555,MARIIX (Mariana Islands Internet Exchange),https://mariix.net,,,APIX
+23738,EdgeIX Sydney (EdgeIX),http://www.edgeix.net,Sydney,AU,APIX
+16930,SJIX (Saint John Internet Exchange),https://aixp.ca,New Brunswick,CA,
+68800,NEO-IX (North East Ohio Internet Exchange),http://www.neo-ix.com,Ohio,US,North America
+71886,Richmond-IX (Ninja-IX),http://www.richmond-ix.net,"Sandston, VA",US,North America
+72297,KUL (DE-CIX Kuala Lumpur),https://www.de-cix.net/locations/kuala-lumpur,Singapore,SG,APIX
+652,MGMix (Montgomery Internet Exchange),http://www.mgmix.net/,Montgomery,US,North America
+81123,GigaNET Kharkov,http://giganet.ua/en,Kharkov,UA,Euro-IX
+70955,PyramIX (Pyramids Internet Exchange),https://pyramix.as207740.net,Cairo,EG,AFIX
+17603,IXP CDMX (Consorcio para el Intercambio de Trafico A.C. CITI IXP MX),www.ixp.mx,Ciudad de Mexico,MX,LAC-IX
+649,YEGIX (YEGIX),http://www.yegix.ca/,Edmonton,CA,North America
+90796,MI-IX,,,,North America
+78397,Skywolf IX (Skywolf Internet Exchange),https://www.skywolf-ix.net,Fremont,US,North America
+81125,GigaNET Odessa,http://giganet.ua/en,Odessa,UA,Euro-IX
+81126,GigaNET Zaporizhia,https://giganet.ua/en,Zaporizhia,UA,Euro-IX
+81124,GigaNET Warsaw,http://giganet.ua/en,Warsaw,PL,Euro-IX
+81131,NAPAfrica MAPS Cape Town,https://www.napafrica.net,Cape Town,ZA,AFIX
+81127,GigaNET Lviv,https://giganet.ua/uk,Lviv,UA,Euro-IX
+656,npIX JWL (npIX JWL),http://www.npix.net.np/,Lalitpur,NP,APIX
+72298,MAY (DE-CIX Malaysia),https://www.de-cix.net/locations/malaysia,Singapore,SG,APIX
+81130,PIT - Colombia - Bogota,https://www.pitcolombia.net,Bogota,CO,LAC-IX
+81134,Dartpoints Bridge-IX Columbia,https://dartpoints.com/solutions/edge-interconnection/internet-exchange,Dallas,US,North America
+81129,EG-IX (Egypt Internet Exchange),https://eg-ix.com.eg/,Cairo,EG,AFIX
+81140,KSKB-IX,https://ix.kskb.eu.org,Taipei City,TW,APIX
+81135,Dartpoints Bridge-IX Dublin,https://dartpoints.com/solutions/edge-interconnection/internet-exchange,Dublin,US,North America
+81136,Dartpoints Bridge-IX North Liberty,https://dartpoints.com/solutions/edge-interconnection/internet-exchange,North Liberty,US,North America
+660,TIX Tanzania - Mwanza IXP (TIX Tanzania - Mwanza IXP),http://www.tix.or.tz/,Mwanza,TZ,AFIX
+81133,SBH-IX (SBH-IX),http://sbh-ix.fr/,Saint Barthélemy,FR,North America
+81138,DANIX (Dominica Internet Exchange),http://www.danix.dm,Roseau,DM,North America
+658,SCL-IX (SCL-IX),https://www.sclix.cl/,Santiago,CL,LAC-IX
+15602,SAIX Saudi Arabia Riyadh,https://saix.sa,Riyadh,SA,Euro-IX
+70900,NCL-IX (NCL-IX),https://www.ncl-ix.uk/,Newcastle,GB,
+81137,IXRR (IXRR Internet Exchange Amazonas),https://www.ixrr.com.br/,Manaus,BR,LAC-IX
+82075,Pejuang IX (Pejuang Internet Xchange),http://pix.my.id,Jakarta,ID,APIX
+15624,EIX Hyderabad (Extreme Internet Exchange India),http://extreme-ix.org,Hyderabad,IN,APIX
+15622,EIX Kolkata (Extreme Internet Exchange India),,Kolkata,IN,APIX
+82076,SAIX Saudi Arabia Jeddah,https://saix.sa,Thuwal,SA,Euro-IX
+668,PIT Santiago - PIT Chile,http://www.pitchile.cl,Santiago,CL,LAC-IX
+664,W-IX (W-IX),https://www.w-ix.ru,Moscow,RU,Euro-IX
+81191,BGP.Exchange - Adelaide,https://bgp.exchange,Adelaide,AU,APIX
+15623,EIX Chennai (Extreme Internet Exchange India),http://extreme-ix.org,Chennai,IN,APIX
+666,SIX Seattle (Jumbo) (Seattle Internet Exchange (MTU 9000)),https://www.seattleix.net/,Seattle,US,North America
+72992,SXMIX,http://www.idncom.fr,SAINT-MARTIN,US,North America
+81192,BGP.Exchange - Amsterdam,https://bgp.exchange,Amsterdam,NL,Euro-IX
+81198,BGP.Exchange - Frankfurt,https://bgp.exchange,Frankfurt,DE,Euro-IX
+81195,BGP.Exchange - Barcelona,https://bgp.exchange,Barcelona,ES,Euro-IX
+81193,BGP.Exchange - Atlanta,https://bgp.exchange,Atlanta,US,North America
+81197,BGP.Exchange - Dusseldorf,https://bgp.exchange,Dusseldorf,DE,Euro-IX
+81201,BGP.Exchange - Houston,https://bgp.exchange,Houston,US,North America
+81196,BGP.Exchange - Brisbane,https://bgp.exchange,Brisbane,AU,APIX
+81200,BGP.Exchange - Hong Kong,https://bgp.exchange,Hong Kong,CN,APIX
+81199,BGP.Exchange - Fremont,https://bgp.exchange,Fremont,US,North America
+81194,BGP.Exchange - Auckland,https://bgp.exchange,Auckland,AU,APIX
+81202,BGP.Exchange - Jacksonville,https://bgp.exchange,Jacksonville,US,North America
+81207,BGP.Exchange - London,https://bgp.exchange,London,GB,Euro-IX
+81208,BGP.Exchange - Los Angles,https://bgp.exchange,Los Angeles,US,North America
+81203,BGP.Exchange - Johannesburg,https://bgp.exchange,Johannesburg,ZA,AFIX
+81209,BGP.Exchange - Melbourne,https://bgp.exchange,Melbourne,AU,APIX
+81205,BGP.Exchange - Lagos,https://bgp.exchange,Lagos,NG,AFIX
+81206,BGP.Exchange - Las Vegas,https://bgp.exchange,Las Vegas,US,North America
+81210,BGP.Exchange - Moscow,https://bgp.exchange,Moscow,RU,Euro-IX
+81211,BGP.Exchange - Mumbai,https://bgp.exchange,Mumbai,IN,APIX
+68918,InterAUS Sydney (InterAUS Sydney: Australia Community Internet Exchange),https://interaus.vnpdigital.com,,AU,APIX
+81204,BGP.Exchange - Kansas,https://bgp.exchange,Kansas,US,North America
+68919,TR-IX (Turk IX),http://tr-ix.com,Denizli,TR,Euro-IX
+81222,BGP.Exchange - Perth,https://bgp.exchange,Perth,AU,APIX
+81220,BGP.Exchange - New York,https://bgp.exchange,New York,US,North America
+68930,ROIX (RomandIX),https://www.romandix.ch/en/home/,Lausanne,CH,Euro-IX
+68929,IX Roraima (Internet Exchange Roraima),https://www.ixrr.com.br,Roraima,BR,LAC-IX
+81221,BGP.Exchange - Oslo,https://bgp.exchange,Oslo,NO,Euro-IX
+81223,BGP.Exchange - Rome,https://bgp.exchange,Rome,IT,Euro-IX
+81224,BGP.Exchange - Seattle,https://bgp.exchange,Seattle,US,North America
+81226,BGP.Exchange - Sofia,https://bgp.exchange,Sofia,BG,Euro-IX
+81225,BGP.Exchange - Singapore,https://bgp.exchange,Singapore,SG,APIX
+81233,BGP.Exchange - Zurich,https://bgp.exchange,Zurich,CH,Euro-IX
+81228,BGP.Exchange - Tel-Aviv,https://bgp.exchange,Tel Aviv,IL,Euro-IX
+81227,BGP.Exchange - Sydney,https://bgp.exchange,Sydney,AU,APIX
+81230,BGP.Exchange - Valdivia,https://bgp.exchange,Valdivia,CL,LAC-IX
+81229,BGP.Exchange - Toronto,https://bgp.exchange,Toronto,CA,North America
+81232,BGP.Exchange - Warsaw,https://bgp.exchange,Warsaw,PL,Euro-IX
+81231,BGP.Exchange - Vilnius,https://bgp.exchange,Vilnius,LT,Euro-IX
+676,MGIX (Madagascar Global Internet eXchange),http://www.mgix.mg,Antananarivo,MG,AFIX
+677,rix-ix (RIX-IX public peering VLAN),http://www.msk-ix.ru/,Riga,LV,Euro-IX
+83284,Willamette Internet Exchange,https://www.thewix.net/,Eugene,US,
+83288,Digital Edge EPIX Jakarta,https://www.digitaledgedc.com/products/interconnect,Jakarta,ID,APIX
+83287,CXC Makassar,https://cloudxchange.id,Makassar,ID,APIX
+83289,ODIX Omadata,https://www.omadata.com/,Surabaya,ID,APIX
+83286,CXC-IX (cloudXchange),https://cloudxchange.id,Jakarta,ID,APIX
+83292,PIT MX,http://www.pit.mx/,Queretaro,MX,LAC-IX
+83294,MMIX Yangon,https://mmix.net.mm,Yangon,MM,APIX
+83291,Electron IX,https://network.usercloud.host/VIXP.html,Frankfurt,DE,Euro-IX
+83290,PoIX,https://www.poix.sk/,Presov,SK,Euro-IX
+83293,sumIX (Sumatra Internet Exchange),https://www.sumix.id/,Pekanbaru,ID,APIX
+73951,Saarcix,https://www.saarcix.de,Saarbrücken,DE,Euro-IX
+83300,Miaowoo Ashburn (Miaowoo Internet Exchange Ashburn),https://ix.wjy.me,Ashburn,US,North America
+83303,GPC Missouri (Great Plains Connect),https://greatplains.io,North Kansas City,US,North America
+83301,IX TELLCORP - Fortaleza,https://tellcorpce.com.br/,Fortaleza,BR,LAC-IX
+83302,Nephren-IX (Nephren Internet Exchange),https://ixp.icu,Shijiazhuang,CN,APIX
+83299,MEX-IX El Paso,https://mdcdatacenters.com/,El Paso,US,North America
+71017,BatamIX Batam (Batam Internet Exchange - Batam),https://batamix.net,Batam,ID,APIX
+71019,BéarnIX,https://bearnix.stolon.fr,Stolon,FR,Euro-IX
+17770,Eurasia Peering IX,http://www.eurasiapeering.com,Moscow,RU,Euro-IX
+81286,BGP.Exchange - Berlin,https://bgp.exchange,Berlin,DE,Euro-IX
+81284,BGP.Exchange - Brussels,https://bgp.exchange,Brussels,BE,Euro-IX
+68992,"IX.br Cascavel, PR (CAC))",http://ix.br,Cascavel,BR,LAC-IX
+81285,BGP.Exchange - Bangalore,https://bgp.exchange,Bangalore,IN,APIX
+68993,"IX.br Campo Grande, MS (CGR))",http://ix.br3096,Campo Grande,BR,LAC-IX
+81288,BGP.Exchange - Bucharest,https://bgp.exchange,Bucharest,RO,Euro-IX
+81287,BGP.Exchange - Paris,https://bgp.exchange,Paris,FR,Euro-IX
+81289,BGP.Exchange - Madrid,https://bgp.exchange,Madrid,ES,Euro-IX
+81294,BGP.Exchange - Montreal,https://bgp.exchange,Montreal,CA,North America
+81292,BGP.Exchange - Kyiv,https://bgp.exchange,Kyiv,UA,Euro-IX
+81290,BGP.Exchange - Riga,https://bgp.exchange,Riga,LV,Euro-IX
+81291,BGP.Exchange - Cairo,https://bgp.exchange,Cairo,EG,Euro-IX
+81293,BGP.Exchange - Athens,https://bgp.exchange,Athens,GR,Euro-IX
+81295,BGP.Exchange - Tokyo,https://bgp.exchange,Tokyo,JP,APIX
+81297,BGP.Exchange - Shanghai,https://bgp.exchange,Shanghai,CN,APIX
+81302,BGP.Exchange - Fortaleza,https://bgp.exchange,Fortaleza,BR,LAC-IX
+81303,BGP.Exchange - Lima,https://bgp.exchange,Lima,PE,LAC-IX
+81296,BGP.Exchange - Vancouver,https://bgp.exchange,Vancouver,CA,North America
+81305,BGP.Exchange - Santiago,https://bgp.exchange,Santiago,CL,LAC-IX
+81307,BGP.Exchange - Accra,https://bgp.exchange,Accra,GH,AFIX
+81308,BGP.Exchange - Seoul,https://bgp.exchange,Seoul,KR,APIX
+81299,BGP.Exchange - Bangkok,https://bgp.exchange,Bangkok,CN,APIX
+81300,BGP.Exchange - Dhaka,https://bgp.exchange,Dhaka,BD,APIX
+81298,BGP.Exchange - Manila,https://bgp.exchange,Manila,PH,APIX
+81309,BGP.Exchange - Chicago,https://bgp.exchange,Chicago,US,North America
+81301,BGP.Exchange - Bogata,https://bgp.exchange,Bogata,CO,LAC-IX
+81306,BGP.Exchange - Quito,https://bgp.exchange,Quito,EC,LAC-IX
+81310,BGP.Exchange - Miami,https://bgp.exchange,Miami,US,North America
+81313,BGP.Exchange - Sao Paulo,https://bgp.exchange,Sao Paulo,BR,LAC-IX
+81314,BGP.Exchange - Buenos Aires,https://bgp.exchange,Buenos Aires,AR,LAC-IX
+81312,BGP.Exchange - Jersey City,https://bgp.exchange,Jersey City,US,North America
+81315,BGP.Exchange - Mexico City,https://bgp.exchange,Mexico City,MX,LAC-IX
+81317,BGP.Exchange - Rio de Janeiro,https://bgp.exchange,Rio de Janeiro,BR,LAC-IX
+81318,BertuahIX (Bertuah Internet Exchange),https://bertuahix.net,Pekanbaru,ID,APIX
+81316,BGP.Exchange - Panama City,https://bgp.exchange,Panama City,PA,LAC-IX
+81311,BGP.Exchange - Riyadh,https://bgp.exchange,Riyadh,SA,Euro-IX
+50596,"CHC-IX (New Zealand Internet Exchange, Christchurch)",http://ix.nz,Christchurch,NZ,APIX
+69023,InterAUS Hobart (InterAUS Hobart: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+89524,DE-CIX Jakarta,https://www.de-cix.net/en/locations/jakarta,Jakarta,ID,APIX
+69024,InterAUS Perth (InterAUS Perth: Australia Community Internet Exchange),https://interaus.com.au,,AU,APIX
+15806,LocIX Netherlands (LocIX Netherlands),https://locix.online/netherland.html,,NL,Euro-IX
+699,STHIX - Gothenburg (Stockholm Internet eXchange AB),http://www.sthix.net/,Gothenburg,SE,Euro-IX
+73153,SIEX (Southern Internet Exchange),https://c1vhosting.it/siex/,Rome,IT,Euro-IX
+700,STHIX - Copenhagen (Stockholm Internet eXchange AB),http://www.sthix.net/,Copenhagen,DK,Euro-IX
+15817,Securebit AG,www.securebit.ch,Dusseldorf,DE,Euro-IX
+78043,RapidIX LON1 (Inferno Communications),https://rapidix.net,London,GB,Euro-IX
+78044,SONIX Gothenburg (Sweden Open Network Internet Exchange),https://sonix.network,Gothenburg,SE,Euro-IX
+71120,STACIX (Staclar Internet Exchange),https://stacix.net,Frankfurt am Main,DE,Euro-IX
+280,SMILE (Santa Monica Internet Local Exchange),http://lg.smile.smn.lv,Riga,LV,Euro-IX
+15838,LocIX (LOCIX Internet Exchange Frankfurt),https://locix.online/,Frankfurt,,Euro-IX
+78047,PITER-IX Rostov,https://piter-ix.ru,Rostov,RU,Euro-IX
+13792,LIS (DE-CIX Lisbon),https://www.de-cix.net/locations/lisbon,Lisbon,PT,Euro-IX
+69107,SkyIX HK (SkyIX Hong Kong),https://skyix.net,,HK,APIX
+78050,PITER-IX Riga,https://piter-ix.ue,Riga,LV,Euro-IX
+78048,PITER-IX Kiev,,Kiev,RU,Euro-IX
+710,SIXP (Serrekunda IXP),http://www.sixp.gm/,Serrekunda,GM,AFIX
+71159,BFIX Bobo-Dioulasso (Burkina Faso Internet Exchange Point),https://bfix.bf,Bobo-Dioulasso,BF,AFIX
+71161,Aqaba IX,http://aqabaix.com,Aqaba,JO,Euro-IX
+71162,NAPAfrica MAPS Johannesburg,https://www.napafrica.net,Johannesburg,ZA,AFIX
+81436,Gator-IX (Ninja-IX),http://ninja-ix.net,Miami,US,North America
+11780,TTPL LAN (Bhutan Internet Exchange),https://bix.bt/,Thimphu,BT,APIX
+44574,NIX-BD (Noakhali Internet Exchange),https://www.nixbd.net/,,BD,APIX
+81437,Jacksonville-IX (Ninja-IX),http://ninja-ix.net,Jacksonville,US,North America
+81435,Santa Clara-IX (Ninja-IX),http://ninja-ix.net,Santa Clara,US,North America
+81440,Minneapolis-IX (Ninja-IX),http://ninja-ix.net,Minneapolis,US,North America
+81439,New Orleans-IX (Ninja-IX),http://ninja-ix.net,New Orleans,US,North America
+75299,Aprosva LAN 1 (Asociación de Proveedores de Servicio de Valor Agregado(APROSVA)),https://aprosva.ec,La Troncal,EC,LAC-IX
+81441,Madison-IX (Ninja-IX),http://ninja-ix.net,Madison,US,North America
+91692,"WLG-IX (New Zealand Internet Exchange, Wellington)",https://www.ix.nz,Wellington,NZ,APIX
+84577,PIT Honduras,https://www.pithonduras.hn/,,,LAC-IX
+84579,STUIX (Student & Technology United Internet Exchanges),https://stuix.io/,Taipei City,TW,APIX
+69189,IX42 Las Vegas (Internet eXchange 42),https://ix42.org,,US,North America
+76180,Suraj IX (Suraj Peering Exchange),https://ix.surajnetwork.com/,Ghaziabad,IN,APIX
+44620,UNY-IX (Universitas Negeri Yogyakarta Internet Exchange Point),http://puskom.uny.ac.id,Yogyakarta,ID,APIX
+71203,DTM (Ruhr-CIX),https://www.ruhr-cix.net/en,Ruhr area,DE,Euro-IX
+81438,Tallahassee-IX (Ninja-IX),http://ninja-ix.net,Tallahassee,US,North America
+77410,JPIX - FUKUOKA (Japan Internet Exchange - Fukuoka),http://www.jpix.ad.jp/en/,FUKUOKA,JP,APIX
+77412,CAN'L IX (CAN'L IXP Services),https://ix.canl.nc,Noumea,NC,APIX
+77415,Netnod Helsinki (Netnod Helsinki),https://www.netnod.se/,Helsinki,FI,Euro-IX
+77414,PIT - Colombia - Medellin,http://www.pitcolombia.net,Medellin,CO,LAC-IX
+15979,Equinix Bogotá,https://www.equinix.com,Bogotá,CO,LAC-IX
+85651,DE-CIX Hyderabad (DE-CIX Interwire Internet Services Pvt Ltd),https://www.de-cix.in/de-cix-hyderabad,Hyderabad,IN,APIX
+13978,Baltimore IX,https://baltimoreix.net/,Baltimore,US,North America
+328,IXLeeds (Leeds Internet Exchange),http://www.ixleeds.net/,Leeds,GB,Euro-IX
+11892,SR-IX (Silk Road Internet Exchange),https://elcat.kg/en/,,KG,APIX
+336,SOX (Serbian Open eXchange),http://sox.rs/?lang=en,Belgrade,RS,Euro-IX
+71335,Kremen-IX,https://kremen-ix.net.ua,Kremenchuk,UA,Euro-IX
+89484,F4IX KC (F4 Internet Exchange),https://f4ix.com/,Kansas City,US,North America
+69301,ATH (SEECIX),https://www.seecix.net,Athens,GR,Euro-IX
+71375,Hamro Internet eXchange,https://ix.hamro.net/,SundarHaraicha,NP,
+14019,Turk-IX,https://www.turk-ix.com/,Istanbul,TR,Euro-IX
+91863,IX AndeSpark Perú,https://andespark-ixp.net/,Huancayo,PE,LAC-IX
+78505,Memphis-IX (Ninja-IX),http://www.Ninja-ix.net/,Memphis,US,North America
+91864,IX-CDE (IX-CDE),https://ixcde.com.py/,Ciudad del Este,PY,LAC-IX
+85721,Penang IX,https://www.de-cix.net/en/locations/penang,,,APIX
+85723,VOIXP,https://voixp.com/,,,Euro-IX
+83686,ACIX (Africa Congo Internet eXchange),https://acix.net,Kinshasa,CG,AFIX
+83687,PIT - Colombia - Cali,https://pitcolombia.net/,Cali,CO,LAC-IX
+83688,PIT - Ecuador - Quito,http://www.pit.net,Bucaramanga,CO,LAC-IX
+83689,Garuda-IX,https://www.garuda-ix.com/,Jakarta,ID,APIX
+79597,AR-IX Cabase,http://www.cabase.org.ar,,AR,LAC-IX
+90720,NIX.CZ FENIX,,,,
+78509,"HSIX VIC (HackerSpace Networking - Melbourne, VIC)",https://www.hackerspace.net.au,Melbourne,AU,APIX
+79603,Filanco-IX,https://hoster.ua,Kiev,UA,Euro-IX
+90721,LONAP Multicast,,,,
+78507,"HSIX QLD (HackerSpace Networking - Brisbane, QLD)",https://www.hackerspace.net.au,Brisbane,AU,APIX
+78508,"HSIX NSW (HackerSpace Networking - Sydney, NSW)",https://www.hackerspace.net.au,Sydney,AU,APIX
+16123,MidWest-IX - St. Louis,http://www.midwest-ix.com/,,,North America
+16122,MidWest-IX - Cleveland,http://www.fd-ix.com/,,,North America
+16124,Equinix Amsterdam,http://www.equinix.com/,,,Euro-IX
+16126,Equinix Houston,http://www.equinix.com/,,,North America
+16125,Equinix Denver,http://www.equinix.com/,,,North America
+16127,Equinix Lisbon,http://www.equinix.com/,,,North America
+78510,"HSIX WA (HackerSpace Networking - Perth, WA)",https://www.hackerspace.net.au,Perth,AU,APIX
+16128,Equinix Madrid,http://www.equinix.com/,,,Euro-IX
+16130,Equinix Vienna (VA),http://www.equinix.com/,,,North America
+69375,IX42 Singapore (Internet eXchange 42),https://ix42.org,Singapore,SG,APIX
+16138,"IX.br Joao Pessoa, PB (JPA))",http://ix.br/,João Pessoa,BR,LAC-IX
+69373,TunIXP (Tunisian Internet Exchange Point),https://www.tunixp.tn/tunixp5.html,Tunis,TN,AFIX
+84617,S3C Datacenter (TurkIX Internet Exchange Point),https://www.turkix.com.tr,Sofia,BG,Euro-IX
+16137,NYIIX Philadelphia,https://www.nyiix.net/locations/nyiix-philadelphia/,,US,North America
+16140,"IX.br Santa Maria, RS (RIA))",https://nic.br,Santa Maria,BR,LAC-IX
+16139,"IX.br Maceio, AL (MCZ))",https://nic.br,Maceió,BR,LAC-IX
+16141,"IX.br Sao Luis, MA (SLZ))",https://nic.br,São Luís,BR,LAC-IX
+16143,"IX.br Teresina, PI (THE))",https://ix.br,Teresina,BR,LAC-IX
+16142,"IX.br Sao Paulo, SP (SP))",https://ix.br,São Paulo,BR,LAC-IX
+71441,ARIX (Amateur Radio Internet Exchange),https://arix.dev/,Fremont,US,North America
+71442,IXPMOE (IXPMOE Internet Exchange Point),http://ixp.moe,Zhuhai,CN,APIX
+90726,JINX Voice,,,,
+75550,GIBIRIX (GIBIRNETIX),,Istanbul,TR,Euro-IX
+81696,IXP-PR,https://ixp-pr.com/,Carolina,US,North America
+81700,MIX (Matrix Internet Exchange),http://www.napinfo.co.id,Jakarta,ID,APIX
+90729,JKT-IX Surabaya,,,,
+81697,PIT - Colombia - Barranquilla,https://pitcolombia.net/normas-tecnicas-barranquilla-ix/,Barranquilla,CO,LAC-IX
+81698,Grunn-IX,https://grunn-ix.nl/,Groningen,NL,Euro-IX
+81701,Banyumas Internet Exchange,https://banyumasix.id,"Banyumas, Jawa Tengah",ID,APIX
+75552,VOLGA-IX,http://volga-ix.ru/,Yaroslavl,RU,Euro-IX
+81702,TheSCAX (South Coast Access Exchange),https://thescax.net,Brookings,US,North America
+61237,CH-IX,www.chix.ch,Glattbrug,CH,Euro-IX
+83795,MIX Palermo (Milan Internet Exchange),https://www.mix-it.net,Palermo,IT,Euro-IX
+90738,Netnod Stockholm GREEN -- MTU4470,,,,
+71527,BWN (Borneo-IX),,Bandar Seri Begawan,BN,APIX
+77662,"IX.br Palmas, TO (TO)",,Palmas,BR,LAC-IX
+81699,SIX (Super Internet eXchange),https://superxchange.net,Bogor,ID,APIX
+90732,OCIX Frankfurt,,,,
+90740,Netnod Stockholm BLUE -- MTU4470,,,,
+72011,MusicCity-IX (Ninja-IX),http://www.Ninja-ix.net/,,US,North America
+90739,Netnod Stockholm BLUE -- MTU1500,,,,
+69459,CSIX Vancouver (CloudSingularity Internet Exchange),https://www.techfutures.xyz/,Vancouver,CA,
+90737,SOLIX MTU4470,,,,
+77661,"IX.br Boa Vista, RR (RR)",http://ix.br,Boa Vista,BR,LAC-IX
+90743,Netnod Sundsvall -- MTU4470,,,,
+90744,Netnod Helsinki GREEN -- MTU9K,,,,
+85866,Santiago Internet Exchange (STIX),https://stix.do,La Vega,DO,
+83825,SIOUIX (Sioux City Internet eXchange),http://www.siouix.net,Siouix City,US,North America
+77692,BBIX Fukuoka (BroadBand Internet eXchange Fukuoka),https://www.bbix.net/,Fukuoka,JP,APIX
+83826,LuIXP (Lusaka Internet Exchange Point),http://lusakaixp.co.zm,Lusaka,ZM,AFIX
+83827,WSNL-IX (WSNL INTERNET EXCHANGE PRIVATE LIMITED),https://wsnl-ix.in,Mumbai,IN,APIX
+77697,ICX-IX Delhi (International Cloud Xchange Delhi),https://www.icxglobal.net,Delhi,IN,APIX
+77698,ICX Dubai (International Cloud Xchange Dubai),https://www.icxglobal.net,Dubai,AE,APIX
+36734,BatamIX Jakarta (Batam Internet Exchange),https://batamix.net,Jakarta,ID,APIX
+77699,ICX Mumbai (International Cloud Xchange Mumbai),https://www.icxglobal.net,Mumbai,IN,APIX
+77702,ICX Seoul (International Cloud Xchange Seoul),https://www.icxglobal.net,Seoul,KR,APIX
+77700,ICX Queretaro (International Cloud Xchange Queretaro),https://www.icxglobal.net,Queretaro,US,North America
+77701,ICX Muscat (International Cloud Xchange Muscat),https://www.icxglobal.net,Muscat,AE,Euro-IX
+16265,BBIX Thailand,http://www.bbix.net/,,,APIX
+77704,MIX Bologna (Milan Internet Exchange),https://www.mix-it.net,Bologna,IT,Euro-IX
+16266,PIT Arica - PIT Chile,http://www.pitarica.cl/,,,LAC-IX
+16267,PIT Concepcion - PIT Chile,http://www.pitconcepcion.cl/,,,LAC-IX
+77703,ICX Taipei (International Cloud Xchange Taipei),"https://www.icxglobal.net""",Taipei,TW,APIX
+16263,KIXP Icolo Mombasa (Kenya Internet Exchange Point),https://www.tespok.co.ke/,Nairobi,KE,AFIX
+16269,PIT Temuco - PIT Chile,http://www.pittemuco.cl/,,,LAC-IX
+16268,PIT Osorno - PIT Chile,http://www.pitosorno.cl/,,,LAC-IX
+16261,TTIX2,https://ix.tt,,,LAC-IX
+86683,IX-CLT (Charlotte IX),https://www.megaport.com/,,,
+86684,IX-NYC (New York IX),,,,
+159,SOLIX - Stockholm (SOLIX),http://www.sol-ix.net/,Stockholm,SE,Euro-IX
+86686,IX-MIA (Miami IX),,,,
+86687,MegaIX Denver,,,,
+90760,NIXI Guwahati,,,,
+16319,GABIX LIBREVILLE (Gabon Internet eXchange),"https://www.gabix.ga/""",Libreville,,AFIX
+79,YYCIX (Calgary Internet Exchange),http://www.yycix.ca/,Calgary,CA,North America
+75684,RIC (DE-CIX Richmond),https://www.de-cix.net/locations/richmond,Ashland,US,North America
+85983,irix Internet Exchange,,,,APIX
+85982,AccurIX LAN1 (AccurIX),https://accurix.net/,Kanata,CA,
+69610,JasTel Internet Exchange (JTIX),http://www.jastel.co.th/,Bangkok,TH,
+69611,STLIX (Saint Louis Internet Exchange),http://www.stlix.net,St. Louis,US,
+69613,Equinix Mexico,http://www.equinix.com,Mexico City,MX,
+96237,AMS-IX Manila,https://ams-ix.net/man,Manila,PH,APIX
+69612,Houston Internet Exchange (HOUIX),http://www.houix.net,"Houston, TX",US,
+90769,TIX Tanzania - Zanzibar,,,,AFIX
+90771,TIX Tanzania - Mbeya,,,,AFIX
+90770,TIX Tanzania - Dodoma,,,,AFIX
+86005,BBIX US-West,https://www.bbix.net/en/,,,North America
+81,TPIX (TPIX (Orange Polska Internet Exchange)),http://www.tpix.pl/,Warszawa,PL,Euro-IX
+69614,Equinix Rio de Janeiro,https://www.equinix.com.br,Rio de Janeiro,BR,

@@ -2,7 +2,6 @@ import os
 import requests
 from datetime import datetime
 import csv
-import os
 
 # Create directory to store the exported files
 os.makedirs("Exchange Export", exist_ok=True)
@@ -14,6 +13,9 @@ nro_extended_url = "https://ftp.ripe.net/pub/stats/ripencc/nro-stats/latest/nro-
 
 # Define path to save files
 base_path = r"RIR"
+
+# Ensure that the base path exists
+os.makedirs(base_path, exist_ok=True)  # Create the RIR directory if it doesn't exist
 
 # Get current date and time string
 dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
@@ -30,6 +32,7 @@ def download_file(url, path):
         file.write(response.content)
     print(f"Downloaded: {path}")
 
+# Download the files using the defined URLs and paths
 download_file(rir_adoption_url, rir_adoption_path)
 download_file(economy_adoption_url, economy_adoption_path)
 download_file(nro_extended_url, nro_extended_path)
