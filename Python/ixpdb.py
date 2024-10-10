@@ -9,7 +9,7 @@ headers = {"content-type": "application/json"}
 base_url = "https://api.ixpdb.net/v1"
 
 # Create directory to store the exported files
-os.makedirs("CSV Export", exist_ok=True)
+os.makedirs("IXPDB Export", exist_ok=True)
 
 # Function to hit HTTP requests in parallel
 def hit_http_request(relative_url):
@@ -26,7 +26,7 @@ def hit_http_request(relative_url):
 def export_file(data, filename):
     dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
     new_file_name = f"{dt_str}_{filename}.csv"
-    path = os.path.join("CSV Export", new_file_name)
+    path = os.path.join("IXPDB Export", new_file_name)
     df = pd.DataFrame(data)
     df.to_csv(path, index=False)
 

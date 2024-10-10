@@ -1,63 +1,72 @@
-import mysql.connector
 import pandas as pd
 import os
 from datetime import datetime
+from sqlalchemy import create_engine
 
-def export_to_csv(cursor, table_name, output_directory):
-    """Export a table to a CSV file using pandas."""
-    cursor.execute(f"SELECT * FROM `{table_name}`")  # Use backticks to enclose table names to avoid syntax issues
-    rows = cursor.fetchall()
-    columns = [desc[0] for desc in cursor.description]
-    df = pd.DataFrame(rows, columns=columns)
-    csv_file_path = os.path.join(output_directory, f"{table_name}.csv")
+def export_to_csv(df, output_directory, file_name):
+    """Export a DataFrame to a CSV file using pandas."""
+    csv_file_path = os.path.join(output_directory, f"{file_name}.csv")
     df.to_csv(csv_file_path, index=False)
-    print(f"Data from table '{table_name}' exported to '{csv_file_path}'")
+    print(f"Data exported to '{csv_file_path}'")
 
 def connect_and_export(server, port, username, password, database, output_directory="peering_database_exports"):
-    """Connect to the MySQL database and export each table to a separate CSV file."""
-    connection = None  # Initialize connection variable to None
+    """Connect to the MySQL database using SQLAlchemy and export each table to a separate CSV file."""
     try:
-        # Establish a connection to the MySQL database with the correct host and port
-        connection = mysql.connector.connect(
-            host=server,
-            port=port,
-            user=username,
-            password=password,
-            database=database,
-            auth_plugin='mysql_native_password'
-        )
+        # Create a SQLAlchemy engine
+        db_connection_url = f"mysql+mysqlconnector://{username}:{password}@{server}:{port}/{database}"
+        engine = create_engine(db_connection_url)
 
-        if connection.is_connected():
-            print(f"Successfully connected to the database '{database}' on {server}:{port}")
-            cursor = connection.cursor()
-            
-            # Create output directory if it doesn't exist
-            os.makedirs(output_directory, exist_ok=True)
-            
-            # Get a list of all tables in the database
-            cursor.execute("SHOW TABLES")
-            tables = cursor.fetchall()
+        print(f"Successfully connected to the database '{database}' on {server}:{port}")
 
-            # Loop through each table and export it to a CSV file
-            for (table_name,) in tables:
-                # Decode the table name if it's returned as a bytearray
-                if isinstance(table_name, bytearray):
-                    table_name = table_name.decode('utf-8')
-                
-                print(f"Exporting data from table '{table_name}'")
-                export_to_csv(cursor, table_name, output_directory)
+        # Create output directory if it doesn't exist
+        os.makedirs(output_directory, exist_ok=True)
 
-            print(f"All tables have been successfully exported to '{output_directory}'")
+        # Step 1: Export all individual tables to separate CSV files
+        tables = pd.read_sql("SHOW TABLES", con=engine)
 
-    except mysql.connector.Error as e:
+        for table_name in tables['Tables_in_' + database]:
+            print(f"Exporting data from table '{table_name}'")
+            # Load table data into a DataFrame and export it
+            table_df = pd.read_sql(f"SELECT * FROM `{table_name}`", con=engine)
+            export_to_csv(table_df, output_directory, table_name)
+
+        print("All individual tables have been successfully exported.")
+
+        # Step 2: Generate a consolidated file for specific tables
+        print("Generating the consolidated file...")
+        
+        # Load data from the three specified tables
+        connection_peer_df = pd.read_sql("SELECT * FROM connection_peer", con=engine)
+        ixp_exchange_df = pd.read_sql("SELECT * FROM ixp_exchange", con=engine)
+        net_networks_df = pd.read_sql("SELECT * FROM net_network", con=engine)
+
+        # Step 3: Merge net_networks and Connection_peer based on `peering_net_id`
+        merged_df = pd.merge(connection_peer_df, net_networks_df, how='left', left_on='net_id', right_on='peering_net_id', suffixes=('_connection_peer', '_net_networks'))
+
+        # Step 4: Merge with ixp_exchange based on `peering_ixp_id`
+        consolidated_df = pd.merge(merged_df, ixp_exchange_df, how='left', left_on='ix_id', right_on='peering_ixp_id', suffixes=('', '_ixp_exchange'))
+
+        # Step 5: Remove duplicate columns if necessary
+        consolidated_df = consolidated_df.loc[:, ~consolidated_df.columns.duplicated()]
+
+        # Step 6: Drop any duplicate records after merging based on all columns
+        consolidated_df.drop_duplicates(inplace=True)
+
+        # Step 7: Reorder columns based on the sequence: net_networks, ixp_exchange, Connection_peer
+        net_network_cols = [col for col in consolidated_df.columns if col.endswith('_net_networks')]
+        ixp_exchange_cols = [col for col in consolidated_df.columns if col.endswith('_ixp_exchange')]
+        connection_peer_cols = [col for col in consolidated_df.columns if '_net_networks' not in col and '_ixp_exchange' not in col]
+
+        # Set the column order
+        column_order = net_network_cols + ixp_exchange_cols + connection_peer_cols
+        consolidated_df = consolidated_df[column_order]
+
+        # Step 8: Export the consolidated file
+        export_to_csv(consolidated_df, output_directory, "Consolidated_Peering_Data")
+        print(f"Consolidated data has been successfully exported to '{output_directory}/Consolidated_Peering_Data.csv'")
+
+    except Exception as e:
         print(f"Error connecting to MySQL: {e}")
-    
-    finally:
-        # Check if connection was successfully established before closing
-        if connection and connection.is_connected():
-            cursor.close()
-            connection.close()
-            print("MySQL connection is closed")
 
 # Replace these variables with your MySQL server details
 server = '3.71.195.34'
