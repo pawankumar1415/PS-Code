@@ -20,16 +20,11 @@ source_column_mapping = {
         'association': 'Org_Association',
         'provider_id': 'IX_ID',
         'location_count': 'IX_Location_Count',
-        'looking_glass': 'IX_Looking_Glass',
-        'manrs': 'IX_Manrs',
         'participant_count': 'IX_Paricipant_Count',
         'pdb_id': 'IX_PDB_ID',
         'updated': 'IX_Updated',
-        'network_name': 'Network_Name',
-        'route_server_asns': 'IX_Route_Server_ASNS',
         'asn': 'ASN',
         'name': 'ANS_Name',
-        'ipv6': 'ASN_Is_IPV6',
         'ip_addresses': 'ASN_IP_Addresses'
     },
     'HE': {
@@ -115,21 +110,31 @@ for prefix, file in folders.items():
 
         df = pd.read_csv(file, encoding='ISO-8859-1', low_memory=False)
 
-        # Ensure columns are unique by appending suffix if duplicates are found
-        df.columns = pd.Index([f"{col}_{i}" if df.columns.duplicated()[i] else col for i, col in enumerate(df.columns)])
+        # Ensure columns are unique
+        if not df.columns.is_unique:
+            print(f"Warning: Duplicate columns found in {file}. Resolving duplicates.")
+            df.columns = pd.Index([f"{col}_{i}" if df.columns.duplicated()[i] else col for i, col in enumerate(df.columns)])
 
         # Remove duplicates in the current DataFrame based on key columns
-        df = df.drop_duplicates(subset=list(source_column_mapping[prefix].keys()))
+        existing_columns = [col for col in source_column_mapping[prefix].keys() if col in df.columns]
+        if existing_columns:
+            df = df.drop_duplicates(subset=existing_columns)
+        else:
+            print(f"Warning: No matching columns found for deduplication in {file}")
 
         # Map source columns to destination columns
         mapped_columns = {source: dest for source, dest in source_column_mapping[prefix].items() if source in df.columns}
-
         df = df.rename(columns=mapped_columns)
 
         # Filter columns to include only the specified destination columns
         df = df[[col for col in destination_columns if col in df.columns]]
 
-        # Add missing columns with NaN values to ensure all destination columns are present
+        # Ensure columns are unique after renaming
+        if not df.columns.is_unique:
+            print(f"Warning: Duplicate columns found after renaming in {file}.")
+            df.columns = pd.Index([f"{col}_{i}" if df.columns.duplicated()[i] else col for i, col in enumerate(df.columns)])
+
+        # Add missing columns with NaN values
         for col in destination_columns:
             if col not in df.columns:
                 df[col] = pd.NA
@@ -143,10 +148,12 @@ for prefix, file in folders.items():
 
     except pd.errors.ParserError as e:
         print(f"ParserError while reading {file}: {e}")
+    except ValueError as ve:
+        print(f"ValueError while processing {file}: {ve}")
     except Exception as e:
         print(f"An error occurred while processing {file}: {e}")
 
-# Final duplicate removal based on important columns in the merged DataFrame
+# Final duplicate removal
 merged_data = merged_data.drop_duplicates(subset=['Organization_Id', 'ASN', 'IX_ID'])
 
 # Save the merged data
