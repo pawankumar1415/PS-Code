@@ -16,7 +16,7 @@ source_column_mapping = {
         'organization_name': 'Organization_Name',
         'org_website': 'Org_Website',
         'city': 'Org_City',
-        'country': 'Org_Country',
+        'country': 'Org_Country_Code',
         'association': 'Org_Association',
         'provider_id': 'IX_ID',
         'location_count': 'IX_Location_Count',
