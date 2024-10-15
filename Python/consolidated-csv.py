@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+from datetime import datetime
 
 # Define the folder paths and files
 folders = {
@@ -8,6 +9,11 @@ folders = {
     'PDB': 'PDB/Consolidated_Peering_Data.csv',
     'RIR': 'RIR/09_10_24_10_40_00_Records.csv'
 }
+
+# Load the Linx Members ASN data
+linx_members_file = 'LinxMembers/Linx-member-11-10-2024.csv'
+linx_members_df = pd.read_csv(linx_members_file, encoding='ISO-8859-1')
+linx_asns = linx_members_df['ASN'].astype(str).tolist()  # Convert ASN to string for matching
 
 # Mapping for each file source to the destination columns
 source_column_mapping = {
@@ -52,7 +58,8 @@ source_column_mapping = {
         'registry': 'IX_Name',
         'opaque': 'ANS_Name',
         'cc': 'ASN_Country_Code',
-        'date': 'ASN_Date'
+        'date': 'ASN_Date',
+        'type': 'ASN_Type'
     },
     'PDB': {
         'peering_org_id': 'Organization_Id',
@@ -93,7 +100,7 @@ destination_columns = [
     'IX_Location_Count', 'IX_Looking_Glass', 'IX_Manrs', 'IX_PDB_ID', 'IX_Addresses', 'IX_Route_Server_ASNS',
     'ASN_Is_IPV6', 'ASN_IP_Addresses', 'IX_InternetExchange', 'IX_IsDataAvailable', 'IX_URL', 'ASN_Adjacencies_v4',
     'ASN_Route_v4', 'ASN_Adjacencies_v6', 'ASN_Route_v6', 'Org_Aka_Name', 'Org_Long_Name', 'Org_Info_Type',
-    'Org_Info_Prefixes4', 'Org_Info_Prefixes6', 'Org_Info_traffic', 'ANS_Is_Rs_Peer', 'ASN_Notes', 'ASN_Speed',
+    'Org_Info_Prefixes4', 'Org_Info_Prefixes6', 'Org_Info_traffic', 'ANS_Is_Rs_Peer', 'ASN_Notes', 'ASN_Speed','ASN_Type',
     'IX_Aka_Name', 'IX_Long_Name'
 ]
 
@@ -110,6 +117,20 @@ for prefix, file in folders.items():
 
         df = pd.read_csv(file, encoding='ISO-8859-1', low_memory=False)
 
+        # Debug: Check the size of the data before filtering
+        print(f"Initial size of {prefix} data: {df.shape[0]} rows")
+
+        # Filter RIR data for type 'asn'
+        if prefix == 'RIR':
+            # Debug: Check the unique values in the 'type' column
+            print(f"Unique 'type' values in RIR: {df['type'].unique()}")
+
+            # Ensure we are filtering correctly
+            df = df[df['type'].str.lower() == 'asn']  # using lower case to avoid case mismatch issues
+
+            # Debug: Check the size of the data after filtering
+            print(f"Size of {prefix} data after filtering by 'type' == 'asn': {df.shape[0]} rows")
+
         # Ensure columns are unique
         if not df.columns.is_unique:
             print(f"Warning: Duplicate columns found in {file}. Resolving duplicates.")
@@ -118,7 +139,10 @@ for prefix, file in folders.items():
         # Remove duplicates in the current DataFrame based on key columns
         existing_columns = [col for col in source_column_mapping[prefix].keys() if col in df.columns]
         if existing_columns:
+            # Debug: Check for duplicates before dropping them
+            initial_size = df.shape[0]
             df = df.drop_duplicates(subset=existing_columns)
+            print(f"Removed {initial_size - df.shape[0]} duplicates from {prefix} data")
         else:
             print(f"Warning: No matching columns found for deduplication in {file}")
 
@@ -153,10 +177,31 @@ for prefix, file in folders.items():
     except Exception as e:
         print(f"An error occurred while processing {file}: {e}")
 
+# Adding IsPeering column based on Linx ASN
+merged_data['ASN'] = merged_data['ASN'].astype(str)  # Ensure ASN is string type for matching
+merged_data['IsPeering'] = merged_data['ASN'].apply(lambda x: 'true' if x in linx_asns else 'false')
+
+# Adding IsPublicNetwork column based on presence of 'he.net' in URLs
+url_columns = ['Org_Website', 'IX_Website', 'IX_URL']  # Columns where URLs might be present
+merged_data['IsPublicNetwork'] = merged_data[url_columns].apply(
+    lambda row: any(pd.notna(url) and 'he.net' in url.lower() for url in row), axis=1
+)
+
+# Adding ConsolidatedCountryCode column based on provided rules
+merged_data['ConsolidatedCountryCode'] = merged_data.apply(
+    lambda row: row['ASN_Country_Code'] if pd.notna(row['ASN_Country_Code']) else (
+        row['IX_Country_Code'] if pd.notna(row['IX_Country_Code']) else (
+            row['Org_Country_Code'] if pd.notna(row['Org_Country_Code']) else pd.NA
+        )
+    ), axis=1
+)
+
 # Final duplicate removal
 merged_data = merged_data.drop_duplicates(subset=['Organization_Id', 'ASN', 'IX_ID'])
 
 # Save the merged data
-output_file = 'merged_peering_data.csv'
-merged_data.to_csv(output_file, index=False)
-print(f"Data merged successfully into '{output_file}'.")
+output_file = 'Consolidated_Data_All_Source.csv'
+dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
+new_file_name = f"{dt_str}_{output_file}.csv"
+merged_data.to_csv(new_file_name, index=False)
+print(f"Data merged successfully into '{new_file_name}'.")
