@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Define the folder paths and files
 folders = {
-    'IXPDB': 'IXPDB/09_10_24_10_33_47_Consolidated_Data.csv',
+    'IXPDB': 'IXPDB/17_10_24_15_09_25_Consolidated_Data.csv',
     'HE': 'HE/09_10_24_10_32_16_Consolidated_Data.csv',
     'PDB': 'PDB/Consolidated_Peering_Data.csv',
     'RIR': 'RIR/09_10_24_10_40_00_Records.csv'
@@ -56,10 +56,10 @@ source_column_mapping = {
     },
     'RIR': {
         'registry': 'IX_Name',
-        'opaque': 'ANS_Name',
+        'opaque': 'ANS',
         'cc': 'ASN_Country_Code',
         'date': 'ASN_Date',
-        'type': 'ASN_Type'
+        'type': 'ASN_Type'  # Including 'type' for filtering asn
     },
     'PDB': {
         'peering_org_id': 'Organization_Id',
@@ -100,7 +100,7 @@ destination_columns = [
     'IX_Location_Count', 'IX_Looking_Glass', 'IX_Manrs', 'IX_PDB_ID', 'IX_Addresses', 'IX_Route_Server_ASNS',
     'ASN_Is_IPV6', 'ASN_IP_Addresses', 'IX_InternetExchange', 'IX_IsDataAvailable', 'IX_URL', 'ASN_Adjacencies_v4',
     'ASN_Route_v4', 'ASN_Adjacencies_v6', 'ASN_Route_v6', 'Org_Aka_Name', 'Org_Long_Name', 'Org_Info_Type',
-    'Org_Info_Prefixes4', 'Org_Info_Prefixes6', 'Org_Info_traffic', 'ANS_Is_Rs_Peer', 'ASN_Notes', 'ASN_Speed','ASN_Type',
+    'Org_Info_Prefixes4', 'Org_Info_Prefixes6', 'Org_Info_traffic', 'ANS_Is_Rs_Peer', 'ASN_Notes', 'ASN_Speed',
     'IX_Aka_Name', 'IX_Long_Name'
 ]
 
@@ -117,19 +117,9 @@ for prefix, file in folders.items():
 
         df = pd.read_csv(file, encoding='ISO-8859-1', low_memory=False)
 
-        # Debug: Check the size of the data before filtering
-        print(f"Initial size of {prefix} data: {df.shape[0]} rows")
-
         # Filter RIR data for type 'asn'
         if prefix == 'RIR':
-            # Debug: Check the unique values in the 'type' column
-            print(f"Unique 'type' values in RIR: {df['type'].unique()}")
-
-            # Ensure we are filtering correctly
-            df = df[df['type'].str.lower() == 'asn']  # using lower case to avoid case mismatch issues
-
-            # Debug: Check the size of the data after filtering
-            print(f"Size of {prefix} data after filtering by 'type' == 'asn': {df.shape[0]} rows")
+            df = df[df['type'] == 'asn']
 
         # Ensure columns are unique
         if not df.columns.is_unique:
@@ -139,10 +129,7 @@ for prefix, file in folders.items():
         # Remove duplicates in the current DataFrame based on key columns
         existing_columns = [col for col in source_column_mapping[prefix].keys() if col in df.columns]
         if existing_columns:
-            # Debug: Check for duplicates before dropping them
-            initial_size = df.shape[0]
             df = df.drop_duplicates(subset=existing_columns)
-            print(f"Removed {initial_size - df.shape[0]} duplicates from {prefix} data")
         else:
             print(f"Warning: No matching columns found for deduplication in {file}")
 
@@ -197,11 +184,12 @@ merged_data['ConsolidatedCountryCode'] = merged_data.apply(
 )
 
 # Final duplicate removal
-merged_data = merged_data.drop_duplicates(subset=['Organization_Id', 'ASN', 'IX_ID'])
+#merged_data = merged_data.drop_duplicates(subset=['Organization_Id', 'ASN', 'IX_ID'])
 
-# Save the merged data
-output_file = 'Consolidated_Data_All_Source.csv'
+# Save the merged data to a new file
+output_file = 'Consolidated_Data_All_Source'
 dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
 new_file_name = f"{dt_str}_{output_file}.csv"
 merged_data.to_csv(new_file_name, index=False)
+
 print(f"Data merged successfully into '{new_file_name}'.")

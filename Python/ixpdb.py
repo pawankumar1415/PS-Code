@@ -17,6 +17,7 @@ def hit_http_request(relative_url):
     try:
         response = requests.get(url, headers=headers)
         response.raise_for_status()
+        
         return response.json()
     except requests.exceptions.RequestException as e:
         print(f"Error fetching {relative_url}: {e}")
@@ -88,6 +89,28 @@ participant_records = [{
     "provider_count": participant_record["provider_count"]
 } for participant_record in participant_response]
 
+# Function to handle parallel fetching of data with retry on failure
+def fetch_parallel_data_with_retry(urls, retry_limit=3):
+    results = {}
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(hit_http_request, url): url for url in urls}
+        for future in as_completed(futures):
+            url = futures[future]
+            provider_id = url.split("/")[-2]  # Extract Provider ID from URL
+            attempt = 0
+            while attempt < retry_limit:
+                try:
+                    result = future.result()
+                    if result is not None:
+                        results[provider_id] = result
+                        break
+                except Exception as e:
+                    attempt += 1
+                    print(f"Error fetching data for ProviderID: {provider_id}, Attempt: {attempt}. Error: {e}")
+                    if attempt == retry_limit:
+                        print(f"Failed to fetch data for ProviderID: {provider_id} after {retry_limit} attempts")
+    return results
+
 # Step 5: Fetch network and participant details for each provider using parallel requests
 provider_urls = [f"/provider/{provider['id']}/networks" for provider in provider_records]
 network_data = fetch_parallel_data(provider_urls)
@@ -104,18 +127,30 @@ for provider, networks in zip(provider_records, network_data):
 
 # Fetch participant details for each provider using parallel requests
 participant_urls = [f"/provider/{provider['id']}/participants" for provider in provider_records]
-participant_data = fetch_parallel_data(participant_urls)
+
+# Fetch participant data with retry mechanism
+participant_data_map = fetch_parallel_data_with_retry(participant_urls)
 
 provider_participants = []
-for provider, participants in zip(provider_records, participant_data):
-    for participant in participants:
-        provider_participants.append({
-            "ProviderID": provider["id"],
-            "asn": participant["asn"],
-            "name": participant["name"],
-            "ipv6": participant["ipv6"],
-            "ip_addresses": ", ".join(participant["ip_addresses"])
-        })
+
+# Iterate through provider records and get their participants from the map
+for provider in provider_records:
+    provider_id = provider["id"]
+    participants = participant_data_map.get(str(provider_id), [])  # Fetch participants by Provider ID
+    if participants:  # Check if participants exist
+        for participant in participants:
+            provider_participants.append({
+                "ProviderID": provider_id,
+                "asn": participant["asn"],
+                "name": participant["name"],
+                "ipv6": participant.get("ipv6", "N/A"),  # Handle missing fields
+                "ip_addresses": ", ".join(participant.get("ip_addresses", []))  # Handle missing addresses
+            })
+    else:
+        print(f"No participants found for ProviderID: {provider_id}")
+
+# Optional: Print a summary to debug if needed
+print(f"Total participants appended: {len(provider_participants)}")
 
 # Step 6: Consolidate provider records for CSV export
 provider_records_v2 = [{
