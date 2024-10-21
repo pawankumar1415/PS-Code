@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import os
 from datetime import datetime
 
@@ -56,7 +57,7 @@ source_column_mapping = {
     },
     'RIR': {
         'registry': 'IX_Name',
-        'opaque': 'ANS',
+        'opaque': 'ASN',
         'cc': 'ASN_Country_Code',
         'date': 'ASN_Date',
         'type': 'ASN_Type'  # Including 'type' for filtering asn
@@ -190,6 +191,10 @@ merged_data['ConsolidatedCountryCode'] = merged_data.apply(
 output_file = 'Consolidated_Data_All_Source'
 dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
 new_file_name = f"{dt_str}_{output_file}.csv"
+merged_data['ASN'] = merged_data["ASN"].replace("nan", np.nan)
+# print(merged_data['ASN'].isna().sum())
+# exit()
+merged_data.dropna(subset=['ASN'], how='all', inplace=True)
 merged_data.to_csv(new_file_name, index=False)
 
 print(f"Data merged successfully into '{new_file_name}'.")
