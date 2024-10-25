@@ -5,11 +5,13 @@ from datetime import datetime
 
 # Define the folder paths and files
 folders = {
+    'PDB': 'PDB/Consolidated_Peering_Data.csv',
     'IXPDB': 'IXPDB/17_10_24_15_09_25_Consolidated_Data.csv',
     'HE': 'HE/09_10_24_10_32_16_Consolidated_Data.csv',
-    'PDB': 'PDB/Consolidated_Peering_Data.csv',
     'RIR': 'RIR/09_10_24_10_40_00_Records.csv'
 }
+
+counties = "HE/09_10_24_10_28_34_Countries.csv"
 
 # Load the Linx Members ASN data
 linx_members_file = 'LinxMembers/Linx-member-11-10-2024.csv'
@@ -184,6 +186,32 @@ merged_data['ConsolidatedCountryCode'] = merged_data.apply(
     ), axis=1
 )
 
+# Check if 'ConsolidatedCountryCode' exists in merged_data
+if 'ConsolidatedCountryCode' in merged_data.columns:
+    # Load the countries.csv file with UTF-8 encoding
+    countries_df = pd.read_csv(counties, encoding='utf-8')
+
+    # Ensure columns are properly named
+    countries_df.rename(columns={'cc': 'ConsolidatedCountryCode', 'name': 'country'}, inplace=True)
+
+    # Merge merged_data with countries_df based on the ConsolidatedCountryCode
+    merged_data = pd.merge(
+        merged_data, 
+        countries_df[['ConsolidatedCountryCode', 'country']], 
+        on='ConsolidatedCountryCode', 
+        how='left'
+    )
+
+    # Ensure 'country' column exists before modifying it
+    if 'country' in merged_data.columns:
+        # Populate 'Antarctica' for country where ConsolidatedCountryCode is 'AQ'
+        merged_data.loc[merged_data['ConsolidatedCountryCode'] == 'AQ', 'country'] = 'Antarctica'
+
+        print("Error: 'country' column not found after merging.")
+else:
+    print("Error: 'ConsolidatedCountryCode' column not found in the data.")
+
+
 # Final duplicate removal
 #merged_data = merged_data.drop_duplicates(subset=['Organization_Id', 'ASN', 'IX_ID'])
 
@@ -192,9 +220,8 @@ output_file = 'Consolidated_Data_All_Source'
 dt_str = datetime.now().strftime("%d_%m_%y_%H_%M_%S")
 new_file_name = f"{dt_str}_{output_file}.csv"
 merged_data['ASN'] = merged_data["ASN"].replace("nan", np.nan)
-# print(merged_data['ASN'].isna().sum())
-# exit()
 merged_data.dropna(subset=['ASN'], how='all', inplace=True)
 merged_data.to_csv(new_file_name, index=False)
 
 print(f"Data merged successfully into '{new_file_name}'.")
+
