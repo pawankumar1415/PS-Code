@@ -1,58 +1,30 @@
 import pandas as pd
 
-# Load the entire dataset
-df = pd.read_csv("21_10_24_21_35_08_Consolidated_Data_All_Source.csv")
+# Load your dataframe
+df = pd.read_csv('21_10_24_21_35_08_Consolidated_Data_All_Source_V2.csv')  # Replace with your file path
 
-# Step 1: Define the order of sources for sorting
-source_order = ['PDB', 'IXPDB', 'HE', 'RIR']
-
-# Step 2: Split the dataframe into numeric and non-numeric ASN dataframes
+# Convert ASN to string type
 df['ASN'] = df['ASN'].astype(str)
 
-# Identify numeric and non-numeric ASNs
-numeric_asn_df = df[df['ASN'].str.isnumeric()].copy()
-non_numeric_asn_df = df[~df['ASN'].str.isnumeric()].copy()
+# Define the priority order for the 'source' column
+source_priority = {'PDB': 1, 'IXPDB': 2, 'HE': 3, 'RIR': 4}
 
-# Convert the ASN column in numeric dataframe to integer type
-numeric_asn_df['ASN'] = numeric_asn_df['ASN'].astype(int)
+# Add a temporary column for sorting by source priority
+df['source_priority'] = df['Source'].map(source_priority)
 
-# Step 3: Sort both dataframes by 'Source' and 'ASN' based on source priority
-numeric_asn_df['Source'] = pd.Categorical(numeric_asn_df['Source'], categories=source_order, ordered=True)
-numeric_asn_df = numeric_asn_df.sort_values(['ASN', 'Source'])
+# Drop duplicate rows based on the entire dataframe
+df = df.drop_duplicates()
 
-non_numeric_asn_df['Source'] = pd.Categorical(non_numeric_asn_df['Source'], categories=source_order, ordered=True)
-non_numeric_asn_df = non_numeric_asn_df.sort_values(['ASN', 'Source'])
+# Sort by 'ASN' in ascending order and 'Source' based on the priority order
+df_sorted = df.sort_values(by=['ASN', 'source_priority'])
 
-# Step 4: Drop duplicates within each dataframe based on ASN
-numeric_asn_df = numeric_asn_df.drop_duplicates(subset='ASN', keep='first')
-non_numeric_asn_df = non_numeric_asn_df.drop_duplicates(subset='ASN', keep='first')
+# Drop duplicates based on the 'ASN' column only, keeping the first occurrence
+df_sorted = df_sorted.drop_duplicates(subset='ASN')
 
-# Step 5: Initialize a list to store final rows
-final_rows = []
+# Drop the temporary 'source_priority' column
+df_sorted = df_sorted.drop(columns=['source_priority'])
 
-# Set to keep track of added ASNs
-added_asns = set()
+# Save the sorted dataframe to a CSV file
+df_sorted.to_csv('Filtered_ASN_Consolidated_Data_file.csv', index=False)
 
-added_asns_nn = set()
-
-# Step 6: Sequentially append numeric ASN rows to the final rows list
-for _, row in numeric_asn_df.iterrows():
-    asn = row['ASN']
-    if asn not in added_asns:
-        final_rows.append(row)
-        added_asns.add(asn)
-
-# Step 7: Sequentially append non-numeric ASN rows to the final rows list
-for _, row in non_numeric_asn_df.iterrows():
-    asn = row['ASN']
-    if asn not in added_asns:
-        final_rows.append(row)
-        added_asns.add(asn)
-
-# Step 8: Create the final dataframe from the list of rows
-final_df = pd.DataFrame(final_rows)
-
-# Step 9: Save the filtered DataFrame to a new CSV file
-final_df.to_csv("Filtered_ASN_Data.csv", index=False)
-
-print("Filtering completed and saved to 'Filtered_ASN_Data.csv'.")
+print("Dataframe sorted, duplicates removed (overall and based on ASN), and saved to 'sorted_file.csv'")
