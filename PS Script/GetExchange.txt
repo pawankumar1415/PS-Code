@@ -1,0 +1,4 @@
+$web_page = Invoke-WebRequest $exchange.url
+    $html = ConvertFrom-Html $web_page
+    
+    $exchangeTable = $html.SelectNodes('//table')I
